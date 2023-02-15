@@ -15,7 +15,7 @@ class UserCreationForm(forms.ModelForm):
 
     class Meta:
         model = User
-        fields = ("email",)
+        fields = ("email", "first_name", "last_name", "role")
 
     def clean_password2(self):
         password1 = self.cleaned_data.get("password1")
@@ -37,29 +37,57 @@ class UserChangeForm(forms.ModelForm):
 
     class Meta:
         model = User
-        fields = ("email", "password", "is_active", "is_admin")
+        fields = (
+            "email",
+            "password",
+            "first_name",
+            "last_name",
+            "role",
+            "is_active",
+            "is_admin",
+        )
 
 
 class UserAdmin(BaseUserAdmin):
     form = UserChangeForm
     add_form = UserCreationForm
 
-    list_display = ("email", "is_admin")
-    list_filter = ("is_admin",)
+    def name(self, obj):
+        if not (obj.first_name or obj.last_name):
+            return "Not set"
+        return " ".join([obj.first_name, obj.last_name])
+
+    list_display = ("name", "email", "role", "is_admin")
+    list_filter = ("is_admin", "role")
     fieldsets = (
-        (None, {"fields": ("email", "password")}),
-        ("Permissions", {"fields": ("is_admin",)}),
+        (None, {"fields": ("email", "first_name", "last_name", "password")}),
+        (
+            "Permissions",
+            {
+                "fields": (
+                    "role",
+                    "is_admin",
+                )
+            },
+        ),
     )
     add_fieldsets = (
         (
             None,
             {
                 "classes": ("wide",),
-                "fields": ("email", "password1", "password2"),
+                "fields": (
+                    "email",
+                    "first_name",
+                    "last_name",
+                    "role",
+                    "password1",
+                    "password2",
+                ),
             },
         ),
     )
-    search_fields = ("email",)
+    search_fields = ("email", "first_name", "last_name", "role")
     ordering = ("email",)
     filter_horizontal = ()
 
