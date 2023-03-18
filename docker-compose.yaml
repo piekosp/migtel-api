@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres
+    image: postgres:15
     env_file:
       - .env
   api:
@@ -14,3 +14,15 @@ services:
       - "8080:8000"
     depends_on:
       - db
+  redis:
+    image: redis:7
+  celery:
+    build: .
+    command: celery -A api worker -l INFO
+    volumes:
+      - .:/code
+    env_file:
+      - .env
+    depends_on:
+      - db
+      - redis
