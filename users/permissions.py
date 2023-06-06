@@ -32,7 +32,7 @@ class CanEditUser(BasePermission):
         if request.user.role not in User.MANAGER_ROLES:
             return request.user == obj
         if request.user.role == User.MANAGER:
-            obj.role in User.EMPLOYEE_ROLES
+            return obj.role in User.EMPLOYEE_ROLES
         return True
 
 

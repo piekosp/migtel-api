@@ -6,3 +6,4 @@ djangorestframework-simplejwt==5.2.2
 sendgrid==6.9.7
 celery==5.2.7
 redis==4.4.2
+django-cors-headers==3.14.0
