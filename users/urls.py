@@ -8,6 +8,7 @@ from .views import (
     UserDetailView,
     UserEmailVerificationView,
     UserListCreateView,
+    UserSelfDetailView,
 )
 
 app_name = "users"
@@ -15,6 +16,7 @@ app_name = "users"
 urlpatterns = [
     path("", UserListCreateView.as_view(), name="user_list_create"),
     path("<int:pk>/", UserDetailView.as_view(), name="user_detail"),
+    path("me/", UserSelfDetailView.as_view(), name="user_self_detail"),
     path(
         "activate/<int:pk>/<str:token>/",
         UserEmailVerificationView.as_view(),

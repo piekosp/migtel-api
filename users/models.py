@@ -31,12 +31,12 @@ class EmployeeManager(models.Manager):
 
 
 class User(AbstractBaseUser, PermissionsMixin):
-    ADMIN = 1
-    STAKEHOLDER = 2
-    MANAGER = 3
-    ANALYST = 4
-    CONSULTANT = 5
-    CLIENT = 6
+    ADMIN = "ADMIN"
+    STAKEHOLDER = "STAKEHOLDER"
+    MANAGER = "MANAGER"
+    ANALYST = "ANALYST"
+    CONSULTANT = "CONSULTANT"
+    CLIENT = "CLIENT"
 
     MANAGER_ROLES = [ADMIN, MANAGER]
     EMPLOYEE_ROLES = [ANALYST, CONSULTANT]
@@ -57,7 +57,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     )
     first_name = models.CharField(verbose_name="first name", max_length=255, blank=True)
     last_name = models.CharField(verbose_name="last name", max_length=255, blank=True)
-    role = models.PositiveSmallIntegerField(choices=ROLE_CHOICES, default=CLIENT)
+    role = models.CharField(max_length=11, choices=ROLE_CHOICES, default=CLIENT)
     is_active = models.BooleanField(default=False)
     is_admin = models.BooleanField(default=False)
 

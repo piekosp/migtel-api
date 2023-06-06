@@ -72,6 +72,15 @@ class UserDetailView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = UserSerializer
 
 
+class UserSelfDetailView(views.APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request, format=None):
+        queryset = User.objects.get(pk=request.user.pk)
+        serializer = UserSerializer(queryset)
+        return Response(serializer.data)
+
+
 class UserEmailVerificationView(views.APIView):
     def post(self, request, pk, token, format=None):
         user = get_object_or_404(User, pk=pk)
