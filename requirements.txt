@@ -7,3 +7,5 @@ sendgrid==6.9.7
 celery==5.2.7
 redis==4.4.2
 django-cors-headers==3.14.0
+pandas==2.0.2
+djangorestframework-api-key==2.3.0
