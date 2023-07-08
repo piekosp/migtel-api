@@ -5,7 +5,7 @@ from companies.models import Company as MatchedCompany
 
 class Company(models.Model):
     name = models.CharField(max_length=255, unique=True)
-    nip = models.CharField(null=True, blank=True, unique=True, max_length=10)
+    nip = models.CharField(null=True, blank=True, max_length=10)
     phone_number = models.CharField(max_length=14, blank=True, null=True)
     employment_range = models.IntegerField(blank=True, null=True)
     matched_company = models.ForeignKey(

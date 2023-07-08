@@ -10,7 +10,7 @@ class PolishClassificationOfActivities(models.Model):
 class Company(models.Model):
     nip = models.CharField(null=True, blank=True, unique=True, max_length=10)
     krs = models.CharField(null=True, blank=True, unique=True, max_length=10)
-    regon = models.CharField(null=True, blank=True, unique=True, max_length=14)
+    regon = models.CharField(null=True, blank=True, max_length=14)
     name = models.CharField(max_length=255)
     address1 = models.CharField(null=True, blank=True, max_length=60)
     address2 = models.CharField(null=True, blank=True, max_length=20)
