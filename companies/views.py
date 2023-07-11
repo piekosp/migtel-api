@@ -16,6 +16,6 @@ class CsvUploadView(views.APIView):
         serializer.is_valid(raise_exception=True)
         file = serializer.save()
 
-        load_companies_from_csv(str(file))
+        load_companies_from_csv.delay(str(file))
 
         return Response(serializer.data)
