@@ -9,6 +9,5 @@ release:
   image: web
   command:
     - python manage.py migrate
-    - python manage.py collectstatic --noinput
 run:
   web: gunicorn api.wsgi:application --bind 0.0.0.0:$PORT
