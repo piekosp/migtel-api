@@ -4,11 +4,11 @@ setup:
       as: DATABASE
 build:
   docker:
-    api: Dockerfile
+    web: Dockerfile
 release:
-  image: api
+  image: web
   command:
     - python manage.py migrate
     - python manage.py collectstatic --noinput
 run:
-  api: gunicorn api.wsgi:application --bind 0.0.0.0:$PORT
+  web: gunicorn api.wsgi:application --bind 0.0.0.0:$PORT
