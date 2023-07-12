@@ -1,10 +1,15 @@
+setup:
+  addons:
+    - plan: heroku-postgresql
+      as: DATABASE
+
 build:
   docker:
-    web: Dockerfile
+    api: Dockerfile
 release:
-  image: web
+  image: api
   command:
     - python manage.py migrate
     - python manage.py collectstatic --noinput
 run:
-  web: gunicorn api.wsgi:application
+  api: gunicorn api.wsgi:application
