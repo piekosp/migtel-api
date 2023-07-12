@@ -14,11 +14,14 @@ import os
 from datetime import timedelta
 from pathlib import Path
 
+import dj_database_url
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 env = os.environ.get
 
+IS_HEROKU_APP = "DYNO" in os.environ and not "CI" in os.environ
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
@@ -88,16 +91,25 @@ WSGI_APPLICATION = "api.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": env("POSTGRES_NAME"),
-        "USER": env("POSTGRES_USER"),
-        "PASSWORD": env("POSTGRES_PASSWORD"),
-        "HOST": env("POSTGRES_HOST"),
-        "PORT": env("POSTGRES_PORT"),
+if IS_HEROKU_APP:
+    DATABASES = {
+        "default": dj_database_url.config(
+            conn_max_age=600,
+            conn_health_checks=True,
+            ssl_require=True,
+        ),
     }
-}
+else:
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.postgresql",
+            "NAME": env("POSTGRES_NAME"),
+            "USER": env("POSTGRES_USER"),
+            "PASSWORD": env("POSTGRES_PASSWORD"),
+            "HOST": env("POSTGRES_HOST"),
+            "PORT": env("POSTGRES_PORT"),
+        }
+    }
 
 
 # Password validation
