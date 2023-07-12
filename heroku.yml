@@ -5,10 +5,12 @@ setup:
 build:
   docker:
     web: Dockerfile
+    celery: Dockerfile
 release:
   image: web
   command:
     - python manage.py migrate
+    - python manage.py collectstatic --noinput
     - heroku ps:scale web=1
     - heroku ps:scale celery=1
 run:
