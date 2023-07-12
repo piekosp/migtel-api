@@ -6,3 +6,4 @@ COPY requirements.txt /code/
 RUN pip install -r requirements.txt
 COPY . /code/
 RUN python manage.py collectstatic --noinput
+CMD gunicorn api.wsgi:application --bind 0.0.0.0:$PORT
