@@ -36,6 +36,8 @@ ALLOWED_HOSTS = env("DJANGO_ALLOWED_HOSTS", "").split(",")
 
 CORS_ALLOWED_ORIGINS = env("DJANGO_CORS_ALLOWED_ORIGINS", "").split(",")
 
+CSRF_TRUSTED_ORIGINS = env("DJANGO_CSRF_TRUSTED_ORIGINS", "").split(",")
+
 
 # Application definition
 
