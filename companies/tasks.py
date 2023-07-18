@@ -10,8 +10,8 @@ from .utils import extract_data_from_file
 
 @shared_task()
 def load_companies_from_csv(file_path):
-    settings.MEDIA_LOCATION + file_path
-    reader = pd.read_csv(file_path, delimiter=";", dtype=str)
+    file_location = settings.MEDIA_LOCATION + file_path
+    reader = pd.read_csv(file_location, delimiter=";", dtype=str)
     reader = reader.replace(np.nan, None)
     for _, row in reader.iterrows():
         data = extract_data_from_file(row)
