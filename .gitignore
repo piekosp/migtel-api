@@ -133,3 +133,6 @@ dmypy.json
 
 # Editor config
 .vscode
+
+# Media files
+/media

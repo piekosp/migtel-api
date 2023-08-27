@@ -1,0 +1,6542 @@
+[
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "1",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0111Z",
+      "industry": "Uprawa zbóż, roślin strączkowych i roślin oleistych na nasiona, z wyłączeniem ryżu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "2",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0112Z",
+      "industry": "Uprawa ryżu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "3",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0113Z",
+      "industry": "Uprawa warzyw, włączając melony oraz uprawa roślin korzeniowych i roślin bulwiastych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "4",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0114Z",
+      "industry": "Uprawa trzciny cukrowej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "5",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0115Z",
+      "industry": "Uprawa tytoniu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "6",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0116Z",
+      "industry": "Uprawa roślin włóknistych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "7",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0119Z",
+      "industry": "Pozostałe uprawy rolne inne niż wieloletnie"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "8",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0121Z",
+      "industry": "Uprawa winogron"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "9",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0122Z",
+      "industry": "Uprawa drzew i krzewów owocowych tropikalnych i podzwrotnikowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "10",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0123Z",
+      "industry": "Uprawa drzew i krzewów owocowych cytrusowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "11",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0124Z",
+      "industry": "Uprawa drzew i krzewów owocowych ziarnkowych i pestkowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "12",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0125Z",
+      "industry": "Uprawa pozostałych drzew i krzewów owocowych oraz orzechów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "13",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0126Z",
+      "industry": "Uprawa drzew oleistych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "14",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0127Z",
+      "industry": "Uprawa roślin wykorzystywanych do produkcji napojów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "15",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0128Z",
+      "industry": "Uprawa roślin przyprawowych i aromatycznych oraz roślin wykorzystywanych do produkcji leków i wyrobów farmaceutycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "16",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0129Z",
+      "industry": "Uprawa pozostałych roślin wieloletnich"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "17",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0130Z",
+      "industry": "Rozmnażanie roślin"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "18",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0141Z",
+      "industry": "Chów i hodowla bydła mlecznego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "19",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0142Z",
+      "industry": "Chów i hodowla pozostałego bydła i bawołów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "20",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0143Z",
+      "industry": "Chów i hodowla koni i pozostałych zwierząt koniowatych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "21",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0144Z",
+      "industry": "Chów i hodowla wielbłądów i zwierząt wielbłądowatych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "22",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0145Z",
+      "industry": "Chów i hodowla owiec i kóz"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "23",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0146Z",
+      "industry": "Chów i hodowla świń"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "24",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0147Z",
+      "industry": "Chów i hodowla drobiu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "25",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0149Z",
+      "industry": "Chów i hodowla pozostałych zwierząt"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "26",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0150Z",
+      "industry": "Uprawy rolne połączone z chowem i hodowlą zwierząt (działalność mieszana)"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "27",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0161Z",
+      "industry": "Działalność usługowa wspomagająca produkcję roślinną"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "28",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0162Z",
+      "industry": "Działalność usługowa wspomagająca chów i hodowlę zwierząt gospodarskich"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "29",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0163Z",
+      "industry": "Działalność usługowa następująca po zbiorach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "30",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0164Z",
+      "industry": "Obróbka nasion dla celów rozmnażania roślin"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "31",
+    "fields": {
+      "section": "A",
+      "department": "01",
+      "group": "0170Z",
+      "industry": "Łowiectwo i pozyskiwanie zwierząt łownych, włączając działalność usługową"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "32",
+    "fields": {
+      "section": "A",
+      "department": "02",
+      "group": "0210Z",
+      "industry": "Gospodarka leśna i pozostała działalność leśna, z wyłączeniem pozyskiwania produktów leśnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "33",
+    "fields": {
+      "section": "A",
+      "department": "02",
+      "group": "0220Z",
+      "industry": "Pozyskiwanie drewna"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "34",
+    "fields": {
+      "section": "A",
+      "department": "02",
+      "group": "0230Z",
+      "industry": "Pozyskiwanie dziko rosnących produktów leśnych, z wyłączeniem drewna"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "35",
+    "fields": {
+      "section": "A",
+      "department": "02",
+      "group": "0240Z",
+      "industry": "Działalność usługowa związana z leśnictwem"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "36",
+    "fields": {
+      "section": "A",
+      "department": "03",
+      "group": "0311Z",
+      "industry": "Rybołówstwo w wodach morskich"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "37",
+    "fields": {
+      "section": "A",
+      "department": "03",
+      "group": "0312Z",
+      "industry": "Rybołówstwo w wodach śródlądowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "38",
+    "fields": {
+      "section": "A",
+      "department": "03",
+      "group": "0321Z",
+      "industry": "Chów i hodowla ryb oraz pozostałych organizmów wodnych w wodach morskich"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "39",
+    "fields": {
+      "section": "A",
+      "department": "03",
+      "group": "0322Z",
+      "industry": "Chów i hodowla ryb oraz pozostałych organizmów wodnych w wodach śródlądowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "40",
+    "fields": {
+      "section": "B",
+      "department": "05",
+      "group": "0510Z",
+      "industry": "Wydobywanie węgla kamiennego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "41",
+    "fields": {
+      "section": "B",
+      "department": "05",
+      "group": "0520Z",
+      "industry": "Wydobywanie węgla brunatnego (lignitu)"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "42",
+    "fields": {
+      "section": "B",
+      "department": "06",
+      "group": "0610Z",
+      "industry": "Górnictwo ropy naftowej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "43",
+    "fields": {
+      "section": "B",
+      "department": "06",
+      "group": "0620Z",
+      "industry": "Górnictwo gazu ziemnego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "44",
+    "fields": {
+      "section": "B",
+      "department": "07",
+      "group": "0710Z",
+      "industry": "Górnictwo rud żelaza"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "45",
+    "fields": {
+      "section": "B",
+      "department": "07",
+      "group": "0721Z",
+      "industry": "Górnictwo rud uranu i toru"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "46",
+    "fields": {
+      "section": "B",
+      "department": "07",
+      "group": "0729Z",
+      "industry": "Górnictwo pozostałych rud metali nieżelaznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "47",
+    "fields": {
+      "section": "B",
+      "department": "08",
+      "group": "0811Z",
+      "industry": "Wydobywanie kamieni ozdobnych oraz kamienia dla potrzeb budownictwa, skał wapiennych, gipsu, kredy i łupków"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "48",
+    "fields": {
+      "section": "B",
+      "department": "08",
+      "group": "0812Z",
+      "industry": "Wydobywanie żwiru i piasku; wydobywanie gliny i kaolinu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "49",
+    "fields": {
+      "section": "B",
+      "department": "08",
+      "group": "0891Z",
+      "industry": "Wydobywanie minerałów dla przemysłu chemicznego oraz do produkcji nawozów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "50",
+    "fields": {
+      "section": "B",
+      "department": "08",
+      "group": "0892Z",
+      "industry": "Wydobywanie torfu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "51",
+    "fields": {
+      "section": "B",
+      "department": "08",
+      "group": "0893Z",
+      "industry": "Wydobywanie soli"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "52",
+    "fields": {
+      "section": "B",
+      "department": "08",
+      "group": "0899Z",
+      "industry": "Pozostałe górnictwo i wydobywanie, gdzie indziej niesklasyfikowane"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "53",
+    "fields": {
+      "section": "B",
+      "department": "09",
+      "group": "0910Z",
+      "industry": "Działalność usługowa wspomagająca eksploatację złóż ropy naftowej i gazu ziemnego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "54",
+    "fields": {
+      "section": "B",
+      "department": "09",
+      "group": "0990Z",
+      "industry": "Działalność usługowa wspomagająca pozostałe górnictwo i wydobywanie"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "55",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1011Z",
+      "industry": "Przetwarzanie i konserwowanie mięsa, z wyłączeniem mięsa z drobiu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "56",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1012Z",
+      "industry": "Przetwarzanie i konserwowanie mięsa z drobiu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "57",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1013Z",
+      "industry": "Produkcja wyrobów z mięsa, włączając wyroby z mięsa drobiowego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "58",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1020Z",
+      "industry": "Przetwarzanie i konserwowanie ryb, skorupiaków i mięczaków"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "59",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1031Z",
+      "industry": "Przetwarzanie i konserwowanie ziemniaków"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "60",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1032Z",
+      "industry": "Produkcja soków z owoców i warzyw"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "61",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1039Z",
+      "industry": "Pozostałe przetwarzanie i konserwowanie owoców i warzyw"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "62",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1041Z",
+      "industry": "Produkcja olejów i pozostałych tłuszczów płynnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "63",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1042Z",
+      "industry": "Produkcja margaryny i podobnych tłuszczów jadalnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "64",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1051Z",
+      "industry": "Przetwórstwo mleka i wyrób serów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "65",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1052Z",
+      "industry": "Produkcja lodów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "66",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1061Z",
+      "industry": "Wytwarzanie produktów przemiału zbóż"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "67",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1062Z",
+      "industry": "Wytwarzanie skrobi i wyrobów skrobiowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "68",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1071Z",
+      "industry": "Produkcja pieczywa; produkcja świeżych wyrobów ciastkarskich i ciastek"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "69",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1072Z",
+      "industry": "Produkcja sucharów i herbatników; produkcja konserwowanych wyrobów ciastkarskich i ciastek"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "70",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1073Z",
+      "industry": "Produkcja makaronów, klusek, kuskusu i podobnych wyrobów mącznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "71",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1081Z",
+      "industry": "Produkcja cukru"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "72",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1082Z",
+      "industry": "Produkcja kakao, czekolady i wyrobów cukierniczych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "73",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1083Z",
+      "industry": "Przetwórstwo herbaty i kawy"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "74",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1084Z",
+      "industry": "Produkcja przypraw"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "75",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1085Z",
+      "industry": "Wytwarzanie gotowych posiłków i dań"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "76",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1086Z",
+      "industry": "Produkcja artykułów spożywczych homogenizowanych i żywności dietetycznej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "77",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1089Z",
+      "industry": "Produkcja pozostałych artykułów spożywczych, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "78",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1091Z",
+      "industry": "Produkcja gotowej paszy dla zwierząt gospodarskich"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "79",
+    "fields": {
+      "section": "C",
+      "department": "10",
+      "group": "1092Z",
+      "industry": "Produkcja gotowej karmy dla zwierząt domowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "80",
+    "fields": {
+      "section": "C",
+      "department": "11",
+      "group": "1101Z",
+      "industry": "Destylowanie, rektyfikowanie i mieszanie alkoholi"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "81",
+    "fields": {
+      "section": "C",
+      "department": "11",
+      "group": "1102Z",
+      "industry": "Produkcja win gronowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "82",
+    "fields": {
+      "section": "C",
+      "department": "11",
+      "group": "1103Z",
+      "industry": "Produkcja cydru i pozostałych win owocowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "83",
+    "fields": {
+      "section": "C",
+      "department": "11",
+      "group": "1104Z",
+      "industry": "Produkcja pozostałych niedestylowanych napojów fermentowanych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "84",
+    "fields": {
+      "section": "C",
+      "department": "11",
+      "group": "1105Z",
+      "industry": "Produkcja piwa"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "85",
+    "fields": {
+      "section": "C",
+      "department": "11",
+      "group": "1106Z",
+      "industry": "Produkcja słodu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "86",
+    "fields": {
+      "section": "C",
+      "department": "11",
+      "group": "1107Z",
+      "industry": "Produkcja napojów bezalkoholowych; produkcja wód mineralnych i pozostałych wód butelkowanych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "87",
+    "fields": {
+      "section": "C",
+      "department": "12",
+      "group": "1200Z",
+      "industry": "PRODUKCJA WYROBÓW TYTONIOWYCH"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "88",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1310A",
+      "industry": "Produkcja przędzy bawełnianej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "89",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1310B",
+      "industry": "Produkcja przędzy wełnianej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "90",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1310C",
+      "industry": "Produkcja przędzy z włókien chemicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "91",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1310D",
+      "industry": "Produkcja przędzy z pozostałych włókien tekstylnych, włączając produkcję nici"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "92",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1320A",
+      "industry": "Produkcja tkanin bawełnianych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "93",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1320B",
+      "industry": "Produkcja tkanin wełnianych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "94",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1320C",
+      "industry": "Produkcja tkanin z włókien chemicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "95",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1320D",
+      "industry": "Produkcja pozostałych tkanin"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "96",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1330Z",
+      "industry": "Wykończanie wyrobów włókienniczych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "97",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1391Z",
+      "industry": "Produkcja dzianin metrażowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "98",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1392Z",
+      "industry": "Produkcja gotowych wyrobów tekstylnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "99",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1393Z",
+      "industry": "Produkcja dywanów i chodników"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "100",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1394Z",
+      "industry": "Produkcja wyrobów powroźniczych, lin, szpagatów i wyrobów sieciowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "101",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1395Z",
+      "industry": "Produkcja włóknin i wyrobów wykonanych z włóknin, z wyłączeniem odzieży"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "102",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1396Z",
+      "industry": "Produkcja pozostałych technicznych i przemysłowych wyrobów tekstylnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "103",
+    "fields": {
+      "section": "C",
+      "department": "13",
+      "group": "1399Z",
+      "industry": "Produkcja pozostałych wyrobów tekstylnych, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "104",
+    "fields": {
+      "section": "C",
+      "department": "14",
+      "group": "1411Z",
+      "industry": "Produkcja odzieży skórzanej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "105",
+    "fields": {
+      "section": "C",
+      "department": "14",
+      "group": "1412Z",
+      "industry": "Produkcja odzieży roboczej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "106",
+    "fields": {
+      "section": "C",
+      "department": "14",
+      "group": "1413Z",
+      "industry": "Produkcja pozostałej odzieży wierzchniej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "107",
+    "fields": {
+      "section": "C",
+      "department": "14",
+      "group": "1414Z",
+      "industry": "Produkcja bielizny"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "108",
+    "fields": {
+      "section": "C",
+      "department": "14",
+      "group": "1419Z",
+      "industry": "Produkcja pozostałej odzieży i dodatków do odzieży"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "109",
+    "fields": {
+      "section": "C",
+      "department": "14",
+      "group": "1420Z",
+      "industry": "Produkcja wyrobów futrzarskich"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "110",
+    "fields": {
+      "section": "C",
+      "department": "14",
+      "group": "1431Z",
+      "industry": "Produkcja wyrobów pończoszniczych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "111",
+    "fields": {
+      "section": "C",
+      "department": "14",
+      "group": "1439Z",
+      "industry": "Produkcja pozostałej odzieży dzianej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "112",
+    "fields": {
+      "section": "C",
+      "department": "15",
+      "group": "1511Z",
+      "industry": "Wyprawa skór, garbowanie; wyprawa i barwienie skór futerkowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "113",
+    "fields": {
+      "section": "C",
+      "department": "15",
+      "group": "1512Z",
+      "industry": "Produkcja toreb bagażowych, toreb ręcznych i podobnych wyrobów kaletniczych; produkcja wyrobów rymarskich"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "114",
+    "fields": {
+      "section": "C",
+      "department": "15",
+      "group": "1520Z",
+      "industry": "Produkcja obuwia"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "115",
+    "fields": {
+      "section": "C",
+      "department": "16",
+      "group": "1610Z",
+      "industry": "Produkcja wyrobów tartacznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "116",
+    "fields": {
+      "section": "C",
+      "department": "16",
+      "group": "1621Z",
+      "industry": "Produkcja arkuszy fornirowych i płyt wykonanych na bazie drewna"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "117",
+    "fields": {
+      "section": "C",
+      "department": "16",
+      "group": "1622Z",
+      "industry": "Produkcja gotowych parkietów podłogowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "118",
+    "fields": {
+      "section": "C",
+      "department": "16",
+      "group": "1623Z",
+      "industry": "Produkcja pozostałych wyrobów stolarskich i ciesielskich dla budownictwa"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "119",
+    "fields": {
+      "section": "C",
+      "department": "16",
+      "group": "1624Z",
+      "industry": "Produkcja opakowań drewnianych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "120",
+    "fields": {
+      "section": "C",
+      "department": "16",
+      "group": "1629Z",
+      "industry": "Produkcja pozostałych wyrobów z drewna; produkcja wyrobów z korka, słomy i materiałów używanych do wyplatania"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "121",
+    "fields": {
+      "section": "C",
+      "department": "17",
+      "group": "1711Z",
+      "industry": "Produkcja masy włóknistej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "122",
+    "fields": {
+      "section": "C",
+      "department": "17",
+      "group": "1712Z",
+      "industry": "Produkcja papieru i tektury"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "123",
+    "fields": {
+      "section": "C",
+      "department": "17",
+      "group": "1721Z",
+      "industry": "Produkcja papieru falistego i tektury falistej oraz opakowań z papieru i tektury"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "124",
+    "fields": {
+      "section": "C",
+      "department": "17",
+      "group": "1722Z",
+      "industry": "Produkcja artykułów gospodarstwa domowego, toaletowych i sanitarnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "125",
+    "fields": {
+      "section": "C",
+      "department": "17",
+      "group": "1723Z",
+      "industry": "Produkcja artykułów piśmiennych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "126",
+    "fields": {
+      "section": "C",
+      "department": "17",
+      "group": "1724Z",
+      "industry": "Produkcja tapet"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "127",
+    "fields": {
+      "section": "C",
+      "department": "17",
+      "group": "1729Z",
+      "industry": "Produkcja pozostałych wyrobów z papieru i tektury"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "128",
+    "fields": {
+      "section": "C",
+      "department": "18",
+      "group": "1811Z",
+      "industry": "Drukowanie gazet"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "129",
+    "fields": {
+      "section": "C",
+      "department": "18",
+      "group": "1812Z",
+      "industry": "Pozostałe drukowanie"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "130",
+    "fields": {
+      "section": "C",
+      "department": "18",
+      "group": "1813Z",
+      "industry": "Działalność usługowa związana z przygotowywaniem do druku"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "131",
+    "fields": {
+      "section": "C",
+      "department": "18",
+      "group": "1814Z",
+      "industry": "Introligatorstwo i podobne usługi"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "132",
+    "fields": {
+      "section": "C",
+      "department": "18",
+      "group": "1820Z",
+      "industry": "Reprodukcja zapisanych nośników informacji"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "133",
+    "fields": {
+      "section": "C",
+      "department": "19",
+      "group": "1910Z",
+      "industry": "Wytwarzanie i przetwarzanie koksu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "134",
+    "fields": {
+      "section": "C",
+      "department": "19",
+      "group": "1920Z",
+      "industry": "Wytwarzanie i przetwarzanie produktów rafinacji ropy naftowej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "135",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2011Z",
+      "industry": "Produkcja gazów technicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "136",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2012Z",
+      "industry": "Produkcja barwników i pigmentów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "137",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2013Z",
+      "industry": "Produkcja pozostałych podstawowych chemikaliów nieorganicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "138",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2014Z",
+      "industry": "Produkcja pozostałych podstawowych chemikaliów organicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "139",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2015Z",
+      "industry": "Produkcja nawozów i związków azotowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "140",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2016Z",
+      "industry": "Produkcja tworzyw sztucznych w formach podstawowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "141",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2017Z",
+      "industry": "Produkcja kauczuku syntetycznego w formach podstawowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "142",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2020Z",
+      "industry": "Produkcja pestycydów i pozostałych środków agrochemicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "143",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2030Z",
+      "industry": "Produkcja farb, lakierów i podobnych powłok, farb drukarskich i mas uszczelniających"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "144",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2041Z",
+      "industry": "Produkcja mydła i detergentów, środków myjących i czyszczących"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "145",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2042Z",
+      "industry": "Produkcja wyrobów kosmetycznych i toaletowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "146",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2051Z",
+      "industry": "Produkcja materiałów wybuchowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "147",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2052Z",
+      "industry": "Produkcja klejów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "148",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2053Z",
+      "industry": "Produkcja olejków eterycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "149",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2059Z",
+      "industry": "Produkcja pozostałych wyrobów chemicznych, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "150",
+    "fields": {
+      "section": "C",
+      "department": "20",
+      "group": "2060Z",
+      "industry": "Produkcja włókien chemicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "151",
+    "fields": {
+      "section": "C",
+      "department": "21",
+      "group": "2110Z",
+      "industry": "Produkcja podstawowych substancji farmaceutycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "152",
+    "fields": {
+      "section": "C",
+      "department": "21",
+      "group": "2120Z",
+      "industry": "Produkcja leków i pozostałych wyrobów farmaceutycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "153",
+    "fields": {
+      "section": "C",
+      "department": "22",
+      "group": "2211Z",
+      "industry": "Produkcja opon i dętek z gumy; bieżnikowanie i regenerowanie opon z gumy"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "154",
+    "fields": {
+      "section": "C",
+      "department": "22",
+      "group": "2219Z",
+      "industry": "Produkcja pozostałych wyrobów z gumy"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "155",
+    "fields": {
+      "section": "C",
+      "department": "22",
+      "group": "2221Z",
+      "industry": "Produkcja płyt, arkuszy, rur i kształtowników z tworzyw sztucznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "156",
+    "fields": {
+      "section": "C",
+      "department": "22",
+      "group": "2222Z",
+      "industry": "Produkcja opakowań z tworzyw sztucznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "157",
+    "fields": {
+      "section": "C",
+      "department": "22",
+      "group": "2223Z",
+      "industry": "Produkcja wyrobów dla budownictwa z tworzyw sztucznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "158",
+    "fields": {
+      "section": "C",
+      "department": "22",
+      "group": "2229Z",
+      "industry": "Produkcja pozostałych wyrobów z tworzyw sztucznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "159",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2311Z",
+      "industry": "Produkcja szkła płaskiego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "160",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2312Z",
+      "industry": "Kształtowanie i obróbka szkła płaskiego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "161",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2313Z",
+      "industry": "Produkcja szkła gospodarczego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "162",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2314Z",
+      "industry": "Produkcja włókien szklanych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "163",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2319Z",
+      "industry": "Produkcja i obróbka pozostałego szkła, włączając szkło techniczne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "164",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2320Z",
+      "industry": "Produkcja wyrobów ogniotrwałych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "165",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2331Z",
+      "industry": "Produkcja ceramicznych kafli i płytek"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "166",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2332Z",
+      "industry": "Produkcja cegieł, dachówek i materiałów budowlanych, z wypalanej gliny"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "167",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2341Z",
+      "industry": "Produkcja ceramicznych wyrobów stołowych i ozdobnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "168",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2342Z",
+      "industry": "Produkcja ceramicznych wyrobów sanitarnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "169",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2343Z",
+      "industry": "Produkcja ceramicznych izolatorów i osłon izolacyjnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "170",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2344Z",
+      "industry": "Produkcja pozostałych technicznych wyrobów ceramicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "171",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2349Z",
+      "industry": "Produkcja pozostałych wyrobów ceramicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "172",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2351Z",
+      "industry": "Produkcja cementu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "173",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2352Z",
+      "industry": "Produkcja wapna i gipsu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "174",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2361Z",
+      "industry": "Produkcja wyrobów budowlanych z betonu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "175",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2362Z",
+      "industry": "Produkcja wyrobów budowlanych z gipsu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "176",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2363Z",
+      "industry": "Produkcja masy betonowej prefabrykowanej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "177",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2364Z",
+      "industry": "Produkcja zaprawy murarskiej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "178",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2365Z",
+      "industry": "Produkcja cementu wzmocnionego włóknem"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "179",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2369Z",
+      "industry": "Produkcja pozostałych wyrobów z betonu, gipsu i cementu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "180",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2370Z",
+      "industry": "Cięcie, formowanie i wykańczanie kamienia"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "181",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2391Z",
+      "industry": "Produkcja wyrobów ściernych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "182",
+    "fields": {
+      "section": "C",
+      "department": "23",
+      "group": "2399Z",
+      "industry": "Produkcja pozostałych wyrobów z mineralnych surowców niemetalicznych, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "183",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2410Z",
+      "industry": "Produkcja surówki, żelazostopów, żeliwa i stali oraz wyrobów hutniczych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "184",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2420Z",
+      "industry": "Produkcja rur, przewodów, kształtowników zamkniętych i łączników, ze stali"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "185",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2431Z",
+      "industry": "Produkcja prętów ciągnionych na zimno"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "186",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2432Z",
+      "industry": "Produkcja wyrobów płaskich walcowanych na zimno"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "187",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2433Z",
+      "industry": "Produkcja wyrobów formowanych na zimno"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "188",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2434Z",
+      "industry": "Produkcja drutu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "189",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2441Z",
+      "industry": "Produkcja metali szlachetnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "190",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2442A",
+      "industry": "Produkcja aluminium hutniczego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "191",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2442B",
+      "industry": "Produkcja wyrobów z aluminium i stopów aluminium"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "192",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2443Z",
+      "industry": "Produkcja ołowiu, cynku i cyny"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "193",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2444Z",
+      "industry": "Produkcja miedzi"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "194",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2445Z",
+      "industry": "Produkcja pozostałych metali nieżelaznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "195",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2446Z",
+      "industry": "Wytwarzanie paliw jądrowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "196",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2451Z",
+      "industry": "Odlewnictwo żeliwa"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "197",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2452Z",
+      "industry": "Odlewnictwo staliwa"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "198",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2453Z",
+      "industry": "Odlewnictwo metali lekkich"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "199",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2454A",
+      "industry": "Odlewnictwo miedzi i stopów miedzi"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "200",
+    "fields": {
+      "section": "C",
+      "department": "24",
+      "group": "2454B",
+      "industry": "Odlewnictwo pozostałych metali nieżelaznych, gdzie indziej niesklasyfikowane"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "201",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2511Z",
+      "industry": "Produkcja konstrukcji metalowych i ich części"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "202",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2512Z",
+      "industry": "Produkcja metalowych elementów stolarki budowlanej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "203",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2521Z",
+      "industry": "Produkcja grzejników i kotłów centralnego ogrzewania"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "204",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2529Z",
+      "industry": "Produkcja pozostałych zbiorników, cystern i pojemników metalowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "205",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2530Z",
+      "industry": "Produkcja wytwornic pary, z wyłączeniem kotłów do centralnego ogrzewania gorącą wodą"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "206",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2540Z",
+      "industry": "Produkcja broni i amunicji"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "207",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2550Z",
+      "industry": "Kucie, prasowanie, wytłaczanie i walcowanie metali; metalurgia proszków"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "208",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2561Z",
+      "industry": "Obróbka metali i nakładanie powłok na metale"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "209",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2562Z",
+      "industry": "Obróbka mechaniczna elementów metalowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "210",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2571Z",
+      "industry": "Produkcja wyrobów nożowniczych i sztućców"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "211",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2572Z",
+      "industry": "Produkcja zamków i zawiasów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "212",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2573Z",
+      "industry": "Produkcja narzędzi"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "213",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2591Z",
+      "industry": "Produkcja pojemników metalowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "214",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2592Z",
+      "industry": "Produkcja opakowań z metali"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "215",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2593Z",
+      "industry": "Produkcja wyrobów z drutu, łańcuchów i sprężyn"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "216",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2594Z",
+      "industry": "Produkcja złączy i śrub"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "217",
+    "fields": {
+      "section": "C",
+      "department": "25",
+      "group": "2599Z",
+      "industry": "Produkcja pozostałych gotowych wyrobów metalowych, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "218",
+    "fields": {
+      "section": "C",
+      "department": "26",
+      "group": "2611Z",
+      "industry": "Produkcja elementów elektronicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "219",
+    "fields": {
+      "section": "C",
+      "department": "26",
+      "group": "2612Z",
+      "industry": "Produkcja elektronicznych obwodów drukowanych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "220",
+    "fields": {
+      "section": "C",
+      "department": "26",
+      "group": "2620Z",
+      "industry": "Produkcja komputerów i urządzeń peryferyjnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "221",
+    "fields": {
+      "section": "C",
+      "department": "26",
+      "group": "2630Z",
+      "industry": "Produkcja sprzętu (tele)komunikacyjnego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "222",
+    "fields": {
+      "section": "C",
+      "department": "26",
+      "group": "2640Z",
+      "industry": "Produkcja elektronicznego sprzętu powszechnego użytku"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "223",
+    "fields": {
+      "section": "C",
+      "department": "26",
+      "group": "2651Z",
+      "industry": "Produkcja instrumentów i przyrządów pomiarowych, kontrolnych i nawigacyjnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "224",
+    "fields": {
+      "section": "C",
+      "department": "26",
+      "group": "2652Z",
+      "industry": "Produkcja zegarków i zegarów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "225",
+    "fields": {
+      "section": "C",
+      "department": "26",
+      "group": "2660Z",
+      "industry": "Produkcja urządzeń napromieniowujących, sprzętu elektromedycznego i elektroterapeutycznego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "226",
+    "fields": {
+      "section": "C",
+      "department": "26",
+      "group": "2670Z",
+      "industry": "Produkcja instrumentów optycznych i sprzętu fotograficznego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "227",
+    "fields": {
+      "section": "C",
+      "department": "26",
+      "group": "2680Z",
+      "industry": "Produkcja magnetycznych i optycznych niezapisanych nośników informacji"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "228",
+    "fields": {
+      "section": "C",
+      "department": "27",
+      "group": "2711Z",
+      "industry": "Produkcja elektrycznych silników, prądnic i transformatorów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "229",
+    "fields": {
+      "section": "C",
+      "department": "27",
+      "group": "2712Z",
+      "industry": "Produkcja aparatury rozdzielczej i sterowniczej energii elektrycznej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "230",
+    "fields": {
+      "section": "C",
+      "department": "27",
+      "group": "2720Z",
+      "industry": "Produkcja baterii i akumulatorów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "231",
+    "fields": {
+      "section": "C",
+      "department": "27",
+      "group": "2731Z",
+      "industry": "Produkcja kabli światłowodowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "232",
+    "fields": {
+      "section": "C",
+      "department": "27",
+      "group": "2732Z",
+      "industry": "Produkcja pozostałych elektronicznych i elektrycznych przewodów i kabli"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "233",
+    "fields": {
+      "section": "C",
+      "department": "27",
+      "group": "2733Z",
+      "industry": "Produkcja sprzętu instalacyjnego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "234",
+    "fields": {
+      "section": "C",
+      "department": "27",
+      "group": "2740Z",
+      "industry": "Produkcja elektrycznego sprzętu oświetleniowego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "235",
+    "fields": {
+      "section": "C",
+      "department": "27",
+      "group": "2751Z",
+      "industry": "Produkcja elektrycznego sprzętu gospodarstwa domowego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "236",
+    "fields": {
+      "section": "C",
+      "department": "27",
+      "group": "2752Z",
+      "industry": "Produkcja nieelektrycznego sprzętu gospodarstwa domowego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "237",
+    "fields": {
+      "section": "C",
+      "department": "27",
+      "group": "2790Z",
+      "industry": "Produkcja pozostałego sprzętu elektrycznego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "238",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2811Z",
+      "industry": "Produkcja silników i turbin, z wyłączeniem silników lotniczych, samochodowych i motocyklowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "239",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2812Z",
+      "industry": "Produkcja sprzętu i wyposażenia do napędu hydraulicznego i pneumatycznego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "240",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2813Z",
+      "industry": "Produkcja pozostałych pomp i sprężarek"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "241",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2814Z",
+      "industry": "Produkcja pozostałych kurków i zaworów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "242",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2815Z",
+      "industry": "Produkcja łożysk, kół zębatych, przekładni zębatych i elementów napędowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "243",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2821Z",
+      "industry": "Produkcja pieców, palenisk i palników piecowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "244",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2822Z",
+      "industry": "Produkcja urządzeń dźwigowych i chwytaków"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "245",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2823Z",
+      "industry": "Produkcja maszyn i sprzętu biurowego, z wyłączeniem komputerów i urządzeń peryferyjnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "246",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2824Z",
+      "industry": "Produkcja narzędzi ręcznych mechanicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "247",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2825Z",
+      "industry": "Produkcja przemysłowych urządzeń chłodniczych i wentylacyjnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "248",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2829Z",
+      "industry": "Produkcja pozostałych maszyn ogólnego przeznaczenia, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "249",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2830Z",
+      "industry": "Produkcja maszyn dla rolnictwa i leśnictwa"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "250",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2841Z",
+      "industry": "Produkcja maszyn do obróbki metalu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "251",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2849Z",
+      "industry": "Produkcja pozostałych narzędzi mechanicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "252",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2891Z",
+      "industry": "Produkcja maszyn dla metalurgii"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "253",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2892Z",
+      "industry": "Produkcja maszyn dla górnictwa i do wydobywania oraz budownictwa"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "254",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2893Z",
+      "industry": "Produkcja maszyn stosowanych w przetwórstwie żywności, tytoniu i produkcji napojów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "255",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2894Z",
+      "industry": "Produkcja maszyn dla przemysłu tekstylnego, odzieżowego i skórzanego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "256",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2895Z",
+      "industry": "Produkcja maszyn dla przemysłu papierniczego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "257",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2896Z",
+      "industry": "Produkcja maszyn do obróbki gumy lub tworzyw sztucznych oraz wytwarzania wyrobów z tych materiałów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "258",
+    "fields": {
+      "section": "C",
+      "department": "28",
+      "group": "2899Z",
+      "industry": "Produkcja pozostałych maszyn specjalnego przeznaczenia, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "259",
+    "fields": {
+      "section": "C",
+      "department": "29",
+      "group": "2910A",
+      "industry": "Produkcja silników do pojazdów samochodowych (z wyłączeniem motocykli) oraz do ciągników rolniczych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "260",
+    "fields": {
+      "section": "C",
+      "department": "29",
+      "group": "2910B",
+      "industry": "Produkcja samochodów osobowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "261",
+    "fields": {
+      "section": "C",
+      "department": "29",
+      "group": "2910C",
+      "industry": "Produkcja autobusów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "262",
+    "fields": {
+      "section": "C",
+      "department": "29",
+      "group": "2910D",
+      "industry": "Produkcja pojazdów samochodowych przeznaczonych do przewozu towarów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "263",
+    "fields": {
+      "section": "C",
+      "department": "29",
+      "group": "2910E",
+      "industry": "Produkcja pozostałych pojazdów samochodowych, z wyłączeniem motocykli"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "264",
+    "fields": {
+      "section": "C",
+      "department": "29",
+      "group": "2920Z",
+      "industry": "Produkcja nadwozi do pojazdów silnikowych; produkcja przyczep i naczep"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "265",
+    "fields": {
+      "section": "C",
+      "department": "29",
+      "group": "2931Z",
+      "industry": "Produkcja wyposażenia elektrycznego i elektronicznego do pojazdów silnikowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "266",
+    "fields": {
+      "section": "C",
+      "department": "29",
+      "group": "2932Z",
+      "industry": "Produkcja pozostałych części i akcesoriów do pojazdów silnikowych, z wyłączeniem motocykli"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "267",
+    "fields": {
+      "section": "C",
+      "department": "30",
+      "group": "3011Z",
+      "industry": "Produkcja statków i konstrukcji pływających"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "268",
+    "fields": {
+      "section": "C",
+      "department": "30",
+      "group": "3012Z",
+      "industry": "Produkcja łodzi wycieczkowych i sportowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "269",
+    "fields": {
+      "section": "C",
+      "department": "30",
+      "group": "3020Z",
+      "industry": "Produkcja lokomotyw kolejowych oraz taboru szynowego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "270",
+    "fields": {
+      "section": "C",
+      "department": "30",
+      "group": "3030Z",
+      "industry": "Produkcja statków powietrznych, statków kosmicznych i podobnych maszyn"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "271",
+    "fields": {
+      "section": "C",
+      "department": "30",
+      "group": "3040Z",
+      "industry": "Produkcja wojskowych pojazdów bojowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "272",
+    "fields": {
+      "section": "C",
+      "department": "30",
+      "group": "3091Z",
+      "industry": "Produkcja motocykli"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "273",
+    "fields": {
+      "section": "C",
+      "department": "30",
+      "group": "3092Z",
+      "industry": "Produkcja rowerów i wózków inwalidzkich"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "274",
+    "fields": {
+      "section": "C",
+      "department": "30",
+      "group": "3099Z",
+      "industry": "Produkcja pozostałego sprzętu transportowego, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "275",
+    "fields": {
+      "section": "C",
+      "department": "31",
+      "group": "3101Z",
+      "industry": "Produkcja mebli biurowych i sklepowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "276",
+    "fields": {
+      "section": "C",
+      "department": "31",
+      "group": "3102Z",
+      "industry": "Produkcja mebli kuchennych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "277",
+    "fields": {
+      "section": "C",
+      "department": "31",
+      "group": "3103Z",
+      "industry": "Produkcja materaców"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "278",
+    "fields": {
+      "section": "C",
+      "department": "31",
+      "group": "3109Z",
+      "industry": "Produkcja pozostałych mebli"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "279",
+    "fields": {
+      "section": "C",
+      "department": "32",
+      "group": "3211Z",
+      "industry": "Produkcja monet"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "280",
+    "fields": {
+      "section": "C",
+      "department": "32",
+      "group": "3212Z",
+      "industry": "Produkcja wyrobów jubilerskich i podobnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "281",
+    "fields": {
+      "section": "C",
+      "department": "32",
+      "group": "3213Z",
+      "industry": "Produkcja sztucznej biżuterii i wyrobów podobnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "282",
+    "fields": {
+      "section": "C",
+      "department": "32",
+      "group": "3220Z",
+      "industry": "Produkcja instrumentów muzycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "283",
+    "fields": {
+      "section": "C",
+      "department": "32",
+      "group": "3230Z",
+      "industry": "Produkcja sprzętu sportowego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "284",
+    "fields": {
+      "section": "C",
+      "department": "32",
+      "group": "3240Z",
+      "industry": "Produkcja gier i zabawek"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "285",
+    "fields": {
+      "section": "C",
+      "department": "32",
+      "group": "3250Z",
+      "industry": "Produkcja urządzeń, instrumentów oraz wyrobów medycznych, włączając dentystyczne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "286",
+    "fields": {
+      "section": "C",
+      "department": "32",
+      "group": "3291Z",
+      "industry": "Produkcja mioteł, szczotek i pędzli"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "287",
+    "fields": {
+      "section": "C",
+      "department": "32",
+      "group": "3299Z",
+      "industry": "Produkcja pozostałych wyrobów, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "288",
+    "fields": {
+      "section": "C",
+      "department": "33",
+      "group": "3311Z",
+      "industry": "Naprawa i konserwacja metalowych wyrobów gotowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "289",
+    "fields": {
+      "section": "C",
+      "department": "33",
+      "group": "3312Z",
+      "industry": "Naprawa i konserwacja maszyn"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "290",
+    "fields": {
+      "section": "C",
+      "department": "33",
+      "group": "3313Z",
+      "industry": "Naprawa i konserwacja urządzeń elektronicznych i optycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "291",
+    "fields": {
+      "section": "C",
+      "department": "33",
+      "group": "3314Z",
+      "industry": "Naprawa i konserwacja urządzeń elektrycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "292",
+    "fields": {
+      "section": "C",
+      "department": "33",
+      "group": "3315Z",
+      "industry": "Naprawa i konserwacja statków i łodzi"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "293",
+    "fields": {
+      "section": "C",
+      "department": "33",
+      "group": "3316Z",
+      "industry": "Naprawa i konserwacja statków powietrznych i statków kosmicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "294",
+    "fields": {
+      "section": "C",
+      "department": "33",
+      "group": "3317Z",
+      "industry": "Naprawa i konserwacja pozostałego sprzętu transportowego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "295",
+    "fields": {
+      "section": "C",
+      "department": "33",
+      "group": "3319Z",
+      "industry": "Naprawa i konserwacja pozostałego sprzętu i wyposażenia"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "296",
+    "fields": {
+      "section": "C",
+      "department": "33",
+      "group": "3320Z",
+      "industry": "Instalowanie maszyn przemysłowych, sprzętu i wyposażenia"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "297",
+    "fields": {
+      "section": "D",
+      "department": "35",
+      "group": "3511Z",
+      "industry": "Wytwarzanie energii elektrycznej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "298",
+    "fields": {
+      "section": "D",
+      "department": "35",
+      "group": "3512Z",
+      "industry": "Przesyłanie energii elektrycznej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "299",
+    "fields": {
+      "section": "D",
+      "department": "35",
+      "group": "3513Z",
+      "industry": "Dystrybucja energii elektrycznej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "300",
+    "fields": {
+      "section": "D",
+      "department": "35",
+      "group": "3514Z",
+      "industry": "Handel energią elektryczną"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "301",
+    "fields": {
+      "section": "D",
+      "department": "35",
+      "group": "3521Z",
+      "industry": "Wytwarzanie paliw gazowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "302",
+    "fields": {
+      "section": "D",
+      "department": "35",
+      "group": "3522Z",
+      "industry": "Dystrybucja paliw gazowych w systemie sieciowym"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "303",
+    "fields": {
+      "section": "D",
+      "department": "35",
+      "group": "3523Z",
+      "industry": "Handel paliwami gazowymi w systemie sieciowym"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "304",
+    "fields": {
+      "section": "D",
+      "department": "35",
+      "group": "3530Z",
+      "industry": "Wytwarzanie i zaopatrywanie w parę wodną, gorącą wodę i powietrze do układów klimatyzacyjnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "305",
+    "fields": {
+      "section": "E",
+      "department": "36",
+      "group": "3600Z",
+      "industry": "POBÓR, UZDATNIANIE I DOSTARCZANIE WODY"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "306",
+    "fields": {
+      "section": "E",
+      "department": "37",
+      "group": "3700Z",
+      "industry": "ODPROWADZANIE I OCZYSZCZANIE ŚCIEKÓW"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "307",
+    "fields": {
+      "section": "E",
+      "department": "38",
+      "group": "3811Z",
+      "industry": "Zbieranie odpadów innych niż niebezpieczne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "308",
+    "fields": {
+      "section": "E",
+      "department": "38",
+      "group": "3812Z",
+      "industry": "Zbieranie odpadów niebezpiecznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "309",
+    "fields": {
+      "section": "E",
+      "department": "38",
+      "group": "3821Z",
+      "industry": "Obróbka i usuwanie odpadów innych niż niebezpieczne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "310",
+    "fields": {
+      "section": "E",
+      "department": "38",
+      "group": "3822Z",
+      "industry": "Przetwarzanie i unieszkodliwianie odpadów niebezpiecznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "311",
+    "fields": {
+      "section": "E",
+      "department": "38",
+      "group": "3831Z",
+      "industry": "Demontaż wyrobów zużytych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "312",
+    "fields": {
+      "section": "E",
+      "department": "38",
+      "group": "3832Z",
+      "industry": "Odzysk surowców z materiałów segregowanych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "313",
+    "fields": {
+      "section": "E",
+      "department": "39",
+      "group": "3900Z",
+      "industry": "DZIAŁALNOŚĆ ZWIĄZANA Z REKULTYWACJĄ I POZOSTAŁA DZIAŁALNOŚĆ USŁUGOWA ZWIĄZANA Z GOSPODARKĄ ODPADAMI"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "314",
+    "fields": {
+      "section": "F",
+      "department": "41",
+      "group": "4110Z",
+      "industry": "Realizacja projektów budowlanych związanych ze wznoszeniem budynków"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "315",
+    "fields": {
+      "section": "F",
+      "department": "41",
+      "group": "4120Z",
+      "industry": "Roboty budowlane związane ze wznoszeniem budynków mieszkalnych i niemieszkalnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "316",
+    "fields": {
+      "section": "F",
+      "department": "42",
+      "group": "4211Z",
+      "industry": "Roboty związane z budową dróg i autostrad"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "317",
+    "fields": {
+      "section": "F",
+      "department": "42",
+      "group": "4212Z",
+      "industry": "Roboty związane z budową dróg szynowych i kolei podziemnej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "318",
+    "fields": {
+      "section": "F",
+      "department": "42",
+      "group": "4213Z",
+      "industry": "Roboty związane z budową mostów i tuneli"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "319",
+    "fields": {
+      "section": "F",
+      "department": "42",
+      "group": "4221Z",
+      "industry": "Roboty związane z budową rurociągów przesyłowych i sieci rozdzielczych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "320",
+    "fields": {
+      "section": "F",
+      "department": "42",
+      "group": "4222Z",
+      "industry": "Roboty związane z budową linii telekomunikacyjnych i elektroenergetycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "321",
+    "fields": {
+      "section": "F",
+      "department": "42",
+      "group": "4291Z",
+      "industry": "Roboty związane z budową obiektów inżynierii wodnej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "322",
+    "fields": {
+      "section": "F",
+      "department": "42",
+      "group": "4299Z",
+      "industry": "Roboty związane z budową pozostałych obiektów inżynierii lądowej i wodnej, gdzie indziej niesklasyfikowane"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "323",
+    "fields": {
+      "section": "F",
+      "department": "43",
+      "group": "4311Z",
+      "industry": "Rozbiórka i burzenie obiektów budowlanych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "324",
+    "fields": {
+      "section": "F",
+      "department": "43",
+      "group": "4312Z",
+      "industry": "Przygotowanie terenu pod budowę"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "325",
+    "fields": {
+      "section": "F",
+      "department": "43",
+      "group": "4313Z",
+      "industry": "Wykonywanie wykopów i wierceń geologiczno-inżynierskich"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "326",
+    "fields": {
+      "section": "F",
+      "department": "43",
+      "group": "4321Z",
+      "industry": "Wykonywanie instalacji elektrycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "327",
+    "fields": {
+      "section": "F",
+      "department": "43",
+      "group": "4322Z",
+      "industry": "Wykonywanie instalacji wodno-kanalizacyjnych, cieplnych, gazowych i klimatyzacyjnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "328",
+    "fields": {
+      "section": "F",
+      "department": "43",
+      "group": "4329Z",
+      "industry": "Wykonywanie pozostałych instalacji budowlanych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "329",
+    "fields": {
+      "section": "F",
+      "department": "43",
+      "group": "4331Z",
+      "industry": "Tynkowanie"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "330",
+    "fields": {
+      "section": "F",
+      "department": "43",
+      "group": "4332Z",
+      "industry": "Zakładanie stolarki budowlanej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "331",
+    "fields": {
+      "section": "F",
+      "department": "43",
+      "group": "4333Z",
+      "industry": "Posadzkarstwo; tapetowanie i oblicowywanie ścian"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "332",
+    "fields": {
+      "section": "F",
+      "department": "43",
+      "group": "4334Z",
+      "industry": "Malowanie i szklenie"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "333",
+    "fields": {
+      "section": "F",
+      "department": "43",
+      "group": "4339Z",
+      "industry": "Wykonywanie pozostałych robót budowlanych wykończeniowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "334",
+    "fields": {
+      "section": "F",
+      "department": "43",
+      "group": "4391Z",
+      "industry": "Wykonywanie konstrukcji i pokryć dachowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "335",
+    "fields": {
+      "section": "F",
+      "department": "43",
+      "group": "4399Z",
+      "industry": "Pozostałe specjalistyczne roboty budowlane, gdzie indziej niesklasyfikowane"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "336",
+    "fields": {
+      "section": "G",
+      "department": "45",
+      "group": "4511Z",
+      "industry": "Sprzedaż hurtowa i detaliczna samochodów osobowych i furgonetek"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "337",
+    "fields": {
+      "section": "G",
+      "department": "45",
+      "group": "4519Z",
+      "industry": "Sprzedaż hurtowa i detaliczna pozostałych pojazdów samochodowych, z wyłączeniem motocykli"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "338",
+    "fields": {
+      "section": "G",
+      "department": "45",
+      "group": "4520Z",
+      "industry": "Konserwacja i naprawa pojazdów samochodowych, z wyłączeniem motocykli"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "339",
+    "fields": {
+      "section": "G",
+      "department": "45",
+      "group": "4531Z",
+      "industry": "Sprzedaż hurtowa części i akcesoriów do pojazdów samochodowych, z wyłączeniem motocykli"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "340",
+    "fields": {
+      "section": "G",
+      "department": "45",
+      "group": "4532Z",
+      "industry": "Sprzedaż detaliczna części i akcesoriów do pojazdów samochodowych, z wyłączeniem motocykli"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "341",
+    "fields": {
+      "section": "G",
+      "department": "45",
+      "group": "4540Z",
+      "industry": "Sprzedaż hurtowa i detaliczna motocykli, ich naprawa i konserwacja oraz sprzedaż hurtowa i detaliczna części i akcesoriów do nich"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "342",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4611Z",
+      "industry": "Działalność agentów zajmujących się sprzedażą płodów rolnych, żywych zwierząt, surowców dla przemysłu tekstylnego i półproduktów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "343",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4612Z",
+      "industry": "Działalność agentów zajmujących się sprzedażą paliw, rud, metali i chemikaliów przemysłowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "344",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4613Z",
+      "industry": "Działalność agentów zajmujących się sprzedażą drewna i materiałów budowlanych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "345",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4614Z",
+      "industry": "Działalność agentów zajmujących się sprzedażą maszyn, urządzeń przemysłowych, statków i samolotów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "346",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4615Z",
+      "industry": "Działalność agentów zajmujących się sprzedażą mebli, artykułów gospodarstwa domowego i drobnych wyrobów metalowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "347",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4616Z",
+      "industry": "Działalność agentów zajmujących się sprzedażą wyrobów tekstylnych, odzieży, wyrobów futrzarskich, obuwia i artykułów skórzanych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "348",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4617Z",
+      "industry": "Działalność agentów zajmujących się sprzedażą żywności, napojów i wyrobów tytoniowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "349",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4618Z",
+      "industry": "Działalność agentów specjalizujących się w sprzedaży pozostałych określonych towarów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "350",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4619Z",
+      "industry": "Działalność agentów zajmujących się sprzedażą towarów różnego rodzaju"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "351",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4621Z",
+      "industry": "Sprzedaż hurtowa zboża, nieprzetworzonego tytoniu, nasion i pasz dla zwierząt"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "352",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4622Z",
+      "industry": "Sprzedaż hurtowa kwiatów i roślin"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "353",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4623Z",
+      "industry": "Sprzedaż hurtowa żywych zwierząt"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "354",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4624Z",
+      "industry": "Sprzedaż hurtowa skór"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "355",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4631Z",
+      "industry": "Sprzedaż hurtowa owoców i warzyw"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "356",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4632Z",
+      "industry": "Sprzedaż hurtowa mięsa i wyrobów z mięsa"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "357",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4633Z",
+      "industry": "Sprzedaż hurtowa mleka, wyrobów mleczarskich, jaj, olejów i tłuszczów jadalnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "358",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4634A",
+      "industry": "Sprzedaż hurtowa napojów alkoholowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "359",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4634B",
+      "industry": "Sprzedaż hurtowa napojów bezalkoholowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "360",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4635Z",
+      "industry": "Sprzedaż hurtowa wyrobów tytoniowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "361",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4636Z",
+      "industry": "Sprzedaż hurtowa cukru, czekolady, wyrobów cukierniczych i piekarskich"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "362",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4637Z",
+      "industry": "Sprzedaż hurtowa herbaty, kawy, kakao i przypraw"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "363",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4638Z",
+      "industry": "Sprzedaż hurtowa pozostałej żywności, włączając ryby, skorupiaki i mięczaki"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "364",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4639Z",
+      "industry": "Sprzedaż hurtowa niewyspecjalizowana żywności, napojów i wyrobów tytoniowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "365",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4641Z",
+      "industry": "Sprzedaż hurtowa wyrobów tekstylnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "366",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4642Z",
+      "industry": "Sprzedaż hurtowa odzieży i obuwia"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "367",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4643Z",
+      "industry": "Sprzedaż hurtowa elektrycznych artykułów użytku domowego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "368",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4644Z",
+      "industry": "Sprzedaż hurtowa wyrobów porcelanowych, ceramicznych i szklanych oraz środków czyszczących"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "369",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4645Z",
+      "industry": "Sprzedaż hurtowa perfum i kosmetyków"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "370",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4646Z",
+      "industry": "Sprzedaż hurtowa wyrobów farmaceutycznych i medycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "371",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4647Z",
+      "industry": "Sprzedaż hurtowa mebli, dywanów i sprzętu oświetleniowego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "372",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4648Z",
+      "industry": "Sprzedaż hurtowa zegarków, zegarów i biżuterii"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "373",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4649Z",
+      "industry": "Sprzedaż hurtowa pozostałych artykułów użytku domowego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "374",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4651Z",
+      "industry": "Sprzedaż hurtowa komputerów, urządzeń peryferyjnych i oprogramowania"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "375",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4652Z",
+      "industry": "Sprzedaż hurtowa sprzętu elektronicznego i telekomunikacyjnego oraz części do niego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "376",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4661Z",
+      "industry": "Sprzedaż hurtowa maszyn i urządzeń rolniczych oraz dodatkowego wyposażenia"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "377",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4662Z",
+      "industry": "Sprzedaż hurtowa obrabiarek"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "378",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4663Z",
+      "industry": "Sprzedaż hurtowa maszyn wykorzystywanych w górnictwie, budownictwie oraz inżynierii lądowej i wodnej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "379",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4664Z",
+      "industry": "Sprzedaż hurtowa maszyn dla przemysłu tekstylnego oraz maszyn do szycia i maszyn dziewiarskich"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "380",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4665Z",
+      "industry": "Sprzedaż hurtowa mebli biurowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "381",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4666Z",
+      "industry": "Sprzedaż hurtowa pozostałych maszyn i urządzeń biurowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "382",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4669Z",
+      "industry": "Sprzedaż hurtowa pozostałych maszyn i urządzeń"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "383",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4671Z",
+      "industry": "Sprzedaż hurtowa paliw i produktów pochodnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "384",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4672Z",
+      "industry": "Sprzedaż hurtowa metali i rud metali"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "385",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4673Z",
+      "industry": "Sprzedaż hurtowa drewna, materiałów budowlanych i wyposażenia sanitarnego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "386",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4674Z",
+      "industry": "Sprzedaż hurtowa wyrobów metalowych oraz sprzętu i dodatkowego wyposażenia hydraulicznego i grzejnego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "387",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4675Z",
+      "industry": "Sprzedaż hurtowa wyrobów chemicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "388",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4676Z",
+      "industry": "Sprzedaż hurtowa pozostałych półproduktów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "389",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4677Z",
+      "industry": "Sprzedaż hurtowa odpadów i złomu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "390",
+    "fields": {
+      "section": "G",
+      "department": "46",
+      "group": "4690Z",
+      "industry": "Sprzedaż hurtowa niewyspecjalizowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "391",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4711Z",
+      "industry": "Sprzedaż detaliczna prowadzona w niewyspecjalizowanych sklepach z przewagą żywności, napojów i wyrobów tytoniowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "392",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4719Z",
+      "industry": "Pozostała sprzedaż detaliczna prowadzona w niewyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "393",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4721Z",
+      "industry": "Sprzedaż detaliczna owoców i warzyw prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "394",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4722Z",
+      "industry": "Sprzedaż detaliczna mięsa i wyrobów z mięsa prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "395",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4723Z",
+      "industry": "Sprzedaż detaliczna ryb, skorupiaków i mięczaków prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "396",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4724Z",
+      "industry": "Sprzedaż detaliczna pieczywa, ciast, wyrobów ciastkarskich i cukierniczych prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "397",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4725Z",
+      "industry": "Sprzedaż detaliczna napojów alkoholowych i bezalkoholowych prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "398",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4726Z",
+      "industry": "Sprzedaż detaliczna wyrobów tytoniowych prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "399",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4729Z",
+      "industry": "Sprzedaż detaliczna pozostałej żywności prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "400",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4730Z",
+      "industry": "Sprzedaż detaliczna paliw do pojazdów silnikowych na stacjach paliw"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "401",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4741Z",
+      "industry": "Sprzedaż detaliczna komputerów, urządzeń peryferyjnych i oprogramowania prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "402",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4742Z",
+      "industry": "Sprzedaż detaliczna sprzętu telekomunikacyjnego prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "403",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4743Z",
+      "industry": "Sprzedaż detaliczna sprzętu audiowizualnego prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "404",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4751Z",
+      "industry": "Sprzedaż detaliczna wyrobów tekstylnych prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "405",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4752Z",
+      "industry": "Sprzedaż detaliczna drobnych wyrobów metalowych, farb i szkła prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "406",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4753Z",
+      "industry": "Sprzedaż detaliczna dywanów, chodników i innych pokryć podłogowych oraz pokryć ściennych prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "407",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4754Z",
+      "industry": "Sprzedaż detaliczna elektrycznego sprzętu gospodarstwa domowego prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "408",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4759Z",
+      "industry": "Sprzedaż detaliczna mebli, sprzętu oświetleniowego i pozostałych artykułów użytku domowego prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "409",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4761Z",
+      "industry": "Sprzedaż detaliczna książek prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "410",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4762Z",
+      "industry": "Sprzedaż detaliczna gazet i artykułów piśmiennych prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "411",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4763Z",
+      "industry": "Sprzedaż detaliczna nagrań dźwiękowych i audiowizualnych prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "412",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4764Z",
+      "industry": "Sprzedaż detaliczna sprzętu sportowego prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "413",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4765Z",
+      "industry": "Sprzedaż detaliczna gier i zabawek prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "414",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4771Z",
+      "industry": "Sprzedaż detaliczna odzieży prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "415",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4772Z",
+      "industry": "Sprzedaż detaliczna obuwia i wyrobów skórzanych prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "416",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4773Z",
+      "industry": "Sprzedaż detaliczna wyrobów farmaceutycznych prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "417",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4774Z",
+      "industry": "Sprzedaż detaliczna wyrobów medycznych, włączając ortopedyczne, prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "418",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4775Z",
+      "industry": "Sprzedaż detaliczna kosmetyków i artykułów toaletowych prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "419",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4776Z",
+      "industry": "Sprzedaż detaliczna kwiatów, roślin, nasion, nawozów, żywych zwierząt domowych, karmy dla zwierząt domowych prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "420",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4777Z",
+      "industry": "Sprzedaż detaliczna zegarków, zegarów i biżuterii prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "421",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4778Z",
+      "industry": "Sprzedaż detaliczna pozostałych nowych wyrobów prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "422",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4779Z",
+      "industry": "Sprzedaż detaliczna artykułów używanych prowadzona w wyspecjalizowanych sklepach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "423",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4781Z",
+      "industry": "Sprzedaż detaliczna żywności, napojów i wyrobów tytoniowych prowadzona na straganach i targowiskach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "424",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4782Z",
+      "industry": "Sprzedaż detaliczna wyrobów tekstylnych, odzieży i obuwia prowadzona na straganach i targowiskach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "425",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4789Z",
+      "industry": "Sprzedaż detaliczna pozostałych wyrobów prowadzona na straganach i targowiskach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "426",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4791Z",
+      "industry": "Sprzedaż detaliczna prowadzona przez domy sprzedaży wysyłkowej lub Internet"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "427",
+    "fields": {
+      "section": "G",
+      "department": "47",
+      "group": "4799Z",
+      "industry": "Pozostała sprzedaż detaliczna prowadzona poza siecią sklepową, straganami i targowiskami"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "428",
+    "fields": {
+      "section": "H",
+      "department": "49",
+      "group": "4910Z",
+      "industry": "Transport kolejowy pasażerski międzymiastowy"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "429",
+    "fields": {
+      "section": "H",
+      "department": "49",
+      "group": "4920Z",
+      "industry": "Transport kolejowy towarów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "430",
+    "fields": {
+      "section": "H",
+      "department": "49",
+      "group": "4931Z",
+      "industry": "Transport lądowy pasażerski, miejski i podmiejski"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "431",
+    "fields": {
+      "section": "H",
+      "department": "49",
+      "group": "4932Z",
+      "industry": "Działalność taksówek osobowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "432",
+    "fields": {
+      "section": "H",
+      "department": "49",
+      "group": "4939Z",
+      "industry": "Pozostały transport lądowy pasażerski, gdzie indziej niesklasyfikowany"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "433",
+    "fields": {
+      "section": "H",
+      "department": "49",
+      "group": "4941Z",
+      "industry": "Transport drogowy towarów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "434",
+    "fields": {
+      "section": "H",
+      "department": "49",
+      "group": "4942Z",
+      "industry": "Działalność usługowa związana z przeprowadzkami"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "435",
+    "fields": {
+      "section": "H",
+      "department": "49",
+      "group": "4950A",
+      "industry": "Transport rurociągami paliw gazowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "436",
+    "fields": {
+      "section": "H",
+      "department": "49",
+      "group": "4950B",
+      "industry": "Transport rurociągowy pozostałych towarów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "437",
+    "fields": {
+      "section": "H",
+      "department": "50",
+      "group": "5010Z",
+      "industry": "Transport morski i przybrzeżny pasażerski"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "438",
+    "fields": {
+      "section": "H",
+      "department": "50",
+      "group": "5020Z",
+      "industry": "Transport morski i przybrzeżny towarów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "439",
+    "fields": {
+      "section": "H",
+      "department": "50",
+      "group": "5030Z",
+      "industry": "Transport wodny śródlądowy pasażerski"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "440",
+    "fields": {
+      "section": "H",
+      "department": "50",
+      "group": "5040Z",
+      "industry": "Transport wodny śródlądowy towarów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "441",
+    "fields": {
+      "section": "H",
+      "department": "51",
+      "group": "5110Z",
+      "industry": "Transport lotniczy pasażerski"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "442",
+    "fields": {
+      "section": "H",
+      "department": "51",
+      "group": "5121Z",
+      "industry": "Transport lotniczy towarów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "443",
+    "fields": {
+      "section": "H",
+      "department": "51",
+      "group": "5122Z",
+      "industry": "Transport kosmiczny"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "444",
+    "fields": {
+      "section": "H",
+      "department": "52",
+      "group": "5210A",
+      "industry": "Magazynowanie i przechowywanie paliw gazowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "445",
+    "fields": {
+      "section": "H",
+      "department": "52",
+      "group": "5210B",
+      "industry": "Magazynowanie i przechowywanie pozostałych towarów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "446",
+    "fields": {
+      "section": "H",
+      "department": "52",
+      "group": "5221Z",
+      "industry": "Działalność usługowa wspomagająca transport lądowy"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "447",
+    "fields": {
+      "section": "H",
+      "department": "52",
+      "group": "5222A",
+      "industry": "Działalność usługowa wspomagająca transport morski"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "448",
+    "fields": {
+      "section": "H",
+      "department": "52",
+      "group": "5222B",
+      "industry": "Działalność usługowa wspomagająca transport śródlądowy"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "449",
+    "fields": {
+      "section": "H",
+      "department": "52",
+      "group": "5223Z",
+      "industry": "Działalność usługowa wspomagająca transport lotniczy"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "450",
+    "fields": {
+      "section": "H",
+      "department": "52",
+      "group": "5224A",
+      "industry": "Przeładunek towarów w portach morskich"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "451",
+    "fields": {
+      "section": "H",
+      "department": "52",
+      "group": "5224B",
+      "industry": "Przeładunek towarów w portach śródlądowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "452",
+    "fields": {
+      "section": "H",
+      "department": "52",
+      "group": "5224C",
+      "industry": "Przeładunek towarów w pozostałych punktach przeładunkowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "453",
+    "fields": {
+      "section": "H",
+      "department": "52",
+      "group": "5229A",
+      "industry": "Działalność morskich agencji transportowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "454",
+    "fields": {
+      "section": "H",
+      "department": "52",
+      "group": "5229B",
+      "industry": "Działalność śródlądowych agencji transportowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "455",
+    "fields": {
+      "section": "H",
+      "department": "52",
+      "group": "5229C",
+      "industry": "Działalność pozostałych agencji transportowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "456",
+    "fields": {
+      "section": "H",
+      "department": "53",
+      "group": "5310Z",
+      "industry": "Działalność pocztowa objęta obowiązkiem świadczenia usług powszechnych (operatora publicznego)"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "457",
+    "fields": {
+      "section": "H",
+      "department": "53",
+      "group": "5320Z",
+      "industry": "Pozostała działalność pocztowa i kurierska"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "458",
+    "fields": {
+      "section": "I",
+      "department": "55",
+      "group": "5510Z",
+      "industry": "Hotele i podobne obiekty zakwaterowania"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "459",
+    "fields": {
+      "section": "I",
+      "department": "55",
+      "group": "5520Z",
+      "industry": "Obiekty noclegowe turystyczne i miejsca krótkotrwałego zakwaterowania"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "460",
+    "fields": {
+      "section": "I",
+      "department": "55",
+      "group": "5530Z",
+      "industry": "Pola kempingowe (włączając pola dla pojazdów kempingowych) i pola namiotowe"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "461",
+    "fields": {
+      "section": "I",
+      "department": "55",
+      "group": "5590Z",
+      "industry": "Pozostałe zakwaterowanie"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "462",
+    "fields": {
+      "section": "I",
+      "department": "56",
+      "group": "5610A",
+      "industry": "Restauracje i inne stałe placówki gastronomiczne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "463",
+    "fields": {
+      "section": "I",
+      "department": "56",
+      "group": "5610B",
+      "industry": "Ruchome placówki gastronomiczne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "464",
+    "fields": {
+      "section": "I",
+      "department": "56",
+      "group": "5621Z",
+      "industry": "Przygotowywanie i dostarczanie żywności dla odbiorców zewnętrznych (katering)"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "465",
+    "fields": {
+      "section": "I",
+      "department": "56",
+      "group": "5629Z",
+      "industry": "Pozostała usługowa działalność gastronomiczna"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "466",
+    "fields": {
+      "section": "I",
+      "department": "56",
+      "group": "5630Z",
+      "industry": "Przygotowywanie i podawanie napojów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "467",
+    "fields": {
+      "section": "J",
+      "department": "58",
+      "group": "5811Z",
+      "industry": "Wydawanie książek"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "468",
+    "fields": {
+      "section": "J",
+      "department": "58",
+      "group": "5812Z",
+      "industry": "Wydawanie wykazów oraz list (np. adresowych, telefonicznych)"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "469",
+    "fields": {
+      "section": "J",
+      "department": "58",
+      "group": "5813Z",
+      "industry": "Wydawanie gazet"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "470",
+    "fields": {
+      "section": "J",
+      "department": "58",
+      "group": "5814Z",
+      "industry": "Wydawanie czasopism i pozostałych periodyków"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "471",
+    "fields": {
+      "section": "J",
+      "department": "58",
+      "group": "5819Z",
+      "industry": "Pozostała działalność wydawnicza"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "472",
+    "fields": {
+      "section": "J",
+      "department": "58",
+      "group": "5821Z",
+      "industry": "Działalność wydawnicza w zakresie gier komputerowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "473",
+    "fields": {
+      "section": "J",
+      "department": "58",
+      "group": "5829Z",
+      "industry": "Działalność wydawnicza w zakresie pozostałego oprogramowania"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "474",
+    "fields": {
+      "section": "J",
+      "department": "59",
+      "group": "5911Z",
+      "industry": "Działalność związana z produkcją filmów, nagrań wideo i programów telewizyjnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "475",
+    "fields": {
+      "section": "J",
+      "department": "59",
+      "group": "5912Z",
+      "industry": "Działalność postprodukcyjna związana z filmami, nagraniami wideo i programami telewizyjnymi"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "476",
+    "fields": {
+      "section": "J",
+      "department": "59",
+      "group": "5913Z",
+      "industry": "Działalność związana z dystrybucją filmów, nagrań wideo i programów telewizyjnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "477",
+    "fields": {
+      "section": "J",
+      "department": "59",
+      "group": "5914Z",
+      "industry": "Działalność związana z projekcją filmów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "478",
+    "fields": {
+      "section": "J",
+      "department": "59",
+      "group": "5920Z",
+      "industry": "Działalność w zakresie nagrań dźwiękowych i muzycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "479",
+    "fields": {
+      "section": "J",
+      "department": "60",
+      "group": "6010Z",
+      "industry": "Nadawanie programów radiofonicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "480",
+    "fields": {
+      "section": "J",
+      "department": "60",
+      "group": "6020Z",
+      "industry": "Nadawanie programów telewizyjnych ogólnodostępnych i abonamentowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "481",
+    "fields": {
+      "section": "J",
+      "department": "61",
+      "group": "6110Z",
+      "industry": "Działalność w zakresie telekomunikacji przewodowej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "482",
+    "fields": {
+      "section": "J",
+      "department": "61",
+      "group": "6120Z",
+      "industry": "Działalność w zakresie telekomunikacji bezprzewodowej, z wyłączeniem telekomunikacji satelitarnej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "483",
+    "fields": {
+      "section": "J",
+      "department": "61",
+      "group": "6130Z",
+      "industry": "Działalność w zakresie telekomunikacji satelitarnej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "484",
+    "fields": {
+      "section": "J",
+      "department": "61",
+      "group": "6190Z",
+      "industry": "Działalność w zakresie pozostałej telekomunikacji"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "485",
+    "fields": {
+      "section": "J",
+      "department": "62",
+      "group": "6201Z",
+      "industry": "Działalność związana z oprogramowaniem"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "486",
+    "fields": {
+      "section": "J",
+      "department": "62",
+      "group": "6202Z",
+      "industry": "Działalność związana z doradztwem w zakresie informatyki"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "487",
+    "fields": {
+      "section": "J",
+      "department": "62",
+      "group": "6203Z",
+      "industry": "Działalność związana z zarządzaniem urządzeniami informatycznymi"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "488",
+    "fields": {
+      "section": "J",
+      "department": "62",
+      "group": "6209Z",
+      "industry": "Pozostała działalność usługowa w zakresie technologii informatycznych i komputerowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "489",
+    "fields": {
+      "section": "J",
+      "department": "63",
+      "group": "6311Z",
+      "industry": "Przetwarzanie danych; zarządzanie stronami internetowymi (hosting) i podobna działalność"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "490",
+    "fields": {
+      "section": "J",
+      "department": "63",
+      "group": "6312Z",
+      "industry": "Działalność portali internetowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "491",
+    "fields": {
+      "section": "J",
+      "department": "63",
+      "group": "6391Z",
+      "industry": "Działalność agencji informacyjnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "492",
+    "fields": {
+      "section": "J",
+      "department": "63",
+      "group": "6399Z",
+      "industry": "Pozostała działalność usługowa w zakresie informacji, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "493",
+    "fields": {
+      "section": "K",
+      "department": "64",
+      "group": "6411Z",
+      "industry": "Działalność banku centralnego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "494",
+    "fields": {
+      "section": "K",
+      "department": "64",
+      "group": "6419Z",
+      "industry": "Pozostałe pośrednictwo pieniężne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "495",
+    "fields": {
+      "section": "K",
+      "department": "64",
+      "group": "6420Z",
+      "industry": "Działalność holdingów finansowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "496",
+    "fields": {
+      "section": "K",
+      "department": "64",
+      "group": "6430Z",
+      "industry": "Działalność trustów, funduszów i podobnych instytucji finansowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "497",
+    "fields": {
+      "section": "K",
+      "department": "64",
+      "group": "6491Z",
+      "industry": "Leasing finansowy"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "498",
+    "fields": {
+      "section": "K",
+      "department": "64",
+      "group": "6492Z",
+      "industry": "Pozostałe formy udzielania kredytów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "499",
+    "fields": {
+      "section": "K",
+      "department": "64",
+      "group": "6499Z",
+      "industry": "Pozostała finansowa działalność usługowa, gdzie indziej niesklasyfikowana, z wyłączeniem ubezpieczeń i funduszów emerytalnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "500",
+    "fields": {
+      "section": "K",
+      "department": "65",
+      "group": "6511Z",
+      "industry": "Ubezpieczenia na życie"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "501",
+    "fields": {
+      "section": "K",
+      "department": "65",
+      "group": "6512Z",
+      "industry": "Pozostałe ubezpieczenia osobowe oraz ubezpieczenia majątkowe"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "502",
+    "fields": {
+      "section": "K",
+      "department": "65",
+      "group": "6520Z",
+      "industry": "Reasekuracja"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "503",
+    "fields": {
+      "section": "K",
+      "department": "65",
+      "group": "6530Z",
+      "industry": "Fundusze emerytalne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "504",
+    "fields": {
+      "section": "K",
+      "department": "66",
+      "group": "6611Z",
+      "industry": "Zarządzanie rynkami finansowymi"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "505",
+    "fields": {
+      "section": "K",
+      "department": "66",
+      "group": "6612Z",
+      "industry": "Działalność maklerska związana z rynkiem papierów wartościowych i towarów giełdowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "506",
+    "fields": {
+      "section": "K",
+      "department": "66",
+      "group": "6619Z",
+      "industry": "Pozostała działalność wspomagająca usługi finansowe, z wyłączeniem ubezpieczeń i funduszów emerytalnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "507",
+    "fields": {
+      "section": "K",
+      "department": "66",
+      "group": "6621Z",
+      "industry": "Działalność związana z oceną ryzyka i szacowaniem poniesionych strat"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "508",
+    "fields": {
+      "section": "K",
+      "department": "66",
+      "group": "6622Z",
+      "industry": "Działalność agentów i brokerów ubezpieczeniowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "509",
+    "fields": {
+      "section": "K",
+      "department": "66",
+      "group": "6629Z",
+      "industry": "Pozostała działalność wspomagająca ubezpieczenia i fundusze emerytalne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "510",
+    "fields": {
+      "section": "K",
+      "department": "66",
+      "group": "6630Z",
+      "industry": "Działalność związana z zarządzaniem funduszami"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "511",
+    "fields": {
+      "section": "L",
+      "department": "68",
+      "group": "6810Z",
+      "industry": "Kupno i sprzedaż nieruchomości na własny rachunek"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "512",
+    "fields": {
+      "section": "L",
+      "department": "68",
+      "group": "6820Z",
+      "industry": "Wynajem i zarządzanie nieruchomościami własnymi lub dzierżawionymi"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "513",
+    "fields": {
+      "section": "L",
+      "department": "68",
+      "group": "6831Z",
+      "industry": "Pośrednictwo w obrocie nieruchomościami"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "514",
+    "fields": {
+      "section": "L",
+      "department": "68",
+      "group": "6832Z",
+      "industry": "Zarządzanie nieruchomościami wykonywane na zlecenie"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "515",
+    "fields": {
+      "section": "M",
+      "department": "69",
+      "group": "6910Z",
+      "industry": "Działalność prawnicza"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "516",
+    "fields": {
+      "section": "M",
+      "department": "69",
+      "group": "6920Z",
+      "industry": "Działalność rachunkowo-księgowa; doradztwo podatkowe"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "517",
+    "fields": {
+      "section": "M",
+      "department": "70",
+      "group": "7010Z",
+      "industry": "Działalność firm centralnych (head offices) i holdingów, z wyłączeniem holdingów finansowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "518",
+    "fields": {
+      "section": "M",
+      "department": "70",
+      "group": "7021Z",
+      "industry": "Stosunki międzyludzkie (public relations) i komunikacja"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "519",
+    "fields": {
+      "section": "M",
+      "department": "70",
+      "group": "7022Z",
+      "industry": "Pozostałe doradztwo w zakresie prowadzenia działalności gospodarczej i zarządzania"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "520",
+    "fields": {
+      "section": "M",
+      "department": "71",
+      "group": "7111Z",
+      "industry": "Działalność w zakresie architektury"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "521",
+    "fields": {
+      "section": "M",
+      "department": "71",
+      "group": "7112Z",
+      "industry": "Działalność w zakresie inżynierii i związane z nią doradztwo techniczne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "522",
+    "fields": {
+      "section": "M",
+      "department": "71",
+      "group": "7120A",
+      "industry": "Badania i analizy związane z jakością żywności"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "523",
+    "fields": {
+      "section": "M",
+      "department": "71",
+      "group": "7120B",
+      "industry": "Pozostałe badania i analizy techniczne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "524",
+    "fields": {
+      "section": "M",
+      "department": "72",
+      "group": "7211Z",
+      "industry": "Badania naukowe i prace rozwojowe w dziedzinie biotechnologii"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "525",
+    "fields": {
+      "section": "M",
+      "department": "72",
+      "group": "7219Z",
+      "industry": "Badania naukowe i prace rozwojowe w dziedzinie pozostałych nauk przyrodniczych i technicznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "526",
+    "fields": {
+      "section": "M",
+      "department": "72",
+      "group": "7220Z",
+      "industry": "Badania naukowe i prace rozwojowe w dziedzinie nauk społecznych i humanistycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "527",
+    "fields": {
+      "section": "M",
+      "department": "73",
+      "group": "7311Z",
+      "industry": "Działalność agencji reklamowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "528",
+    "fields": {
+      "section": "M",
+      "department": "73",
+      "group": "7312A",
+      "industry": "Pośrednictwo w sprzedaży czasu i miejsca na cele reklamowe w radio i telewizji"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "529",
+    "fields": {
+      "section": "M",
+      "department": "73",
+      "group": "7312B",
+      "industry": "Pośrednictwo w sprzedaży miejsca na cele reklamowe w mediach drukowanych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "530",
+    "fields": {
+      "section": "M",
+      "department": "73",
+      "group": "7312C",
+      "industry": "Pośrednictwo w sprzedaży miejsca na cele reklamowe w mediach elektronicznych (Internet)"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "531",
+    "fields": {
+      "section": "M",
+      "department": "73",
+      "group": "7312D",
+      "industry": "Pośrednictwo w sprzedaży miejsca na cele reklamowe w pozostałych mediach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "532",
+    "fields": {
+      "section": "M",
+      "department": "73",
+      "group": "7320Z",
+      "industry": "Badanie rynku i opinii publicznej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "533",
+    "fields": {
+      "section": "M",
+      "department": "74",
+      "group": "7410Z",
+      "industry": "Działalność w zakresie specjalistycznego projektowania"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "534",
+    "fields": {
+      "section": "M",
+      "department": "74",
+      "group": "7420Z",
+      "industry": "Działalność fotograficzna"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "535",
+    "fields": {
+      "section": "M",
+      "department": "74",
+      "group": "7430Z",
+      "industry": "Działalność związana z tłumaczeniami"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "536",
+    "fields": {
+      "section": "M",
+      "department": "74",
+      "group": "7490Z",
+      "industry": "Pozostała działalność profesjonalna, naukowa i techniczna, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "537",
+    "fields": {
+      "section": "M",
+      "department": "75",
+      "group": "7500Z",
+      "industry": "DZIAŁALNOŚĆ WETERYNARYJNA"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "538",
+    "fields": {
+      "section": "N",
+      "department": "77",
+      "group": "7711Z",
+      "industry": "Wynajem i dzierżawa samochodów osobowych i furgonetek"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "539",
+    "fields": {
+      "section": "N",
+      "department": "77",
+      "group": "7712Z",
+      "industry": "Wynajem i dzierżawa pozostałych pojazdów samochodowych, z wyłączeniem motocykli"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "540",
+    "fields": {
+      "section": "N",
+      "department": "77",
+      "group": "7721Z",
+      "industry": "Wypożyczanie i dzierżawa sprzętu rekreacyjnego i sportowego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "541",
+    "fields": {
+      "section": "N",
+      "department": "77",
+      "group": "7722Z",
+      "industry": "Wypożyczanie kaset wideo, płyt CD, DVD itp."
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "542",
+    "fields": {
+      "section": "N",
+      "department": "77",
+      "group": "7729Z",
+      "industry": "Wypożyczanie i dzierżawa pozostałych artykułów użytku osobistego i domowego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "543",
+    "fields": {
+      "section": "N",
+      "department": "77",
+      "group": "7731Z",
+      "industry": "Wynajem i dzierżawa maszyn i urządzeń rolniczych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "544",
+    "fields": {
+      "section": "N",
+      "department": "77",
+      "group": "7732Z",
+      "industry": "Wynajem i dzierżawa maszyn i urządzeń budowlanych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "545",
+    "fields": {
+      "section": "N",
+      "department": "77",
+      "group": "7733Z",
+      "industry": "Wynajem i dzierżawa maszyn i urządzeń biurowych, włączając komputery"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "546",
+    "fields": {
+      "section": "N",
+      "department": "77",
+      "group": "7734Z",
+      "industry": "Wynajem i dzierżawa środków transportu wodnego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "547",
+    "fields": {
+      "section": "N",
+      "department": "77",
+      "group": "7735Z",
+      "industry": "Wynajem i dzierżawa środków transportu lotniczego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "548",
+    "fields": {
+      "section": "N",
+      "department": "77",
+      "group": "7739Z",
+      "industry": "Wynajem i dzierżawa pozostałych maszyn, urządzeń oraz dóbr materialnych, gdzie indziej niesklasyfikowane"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "549",
+    "fields": {
+      "section": "N",
+      "department": "77",
+      "group": "7740Z",
+      "industry": "Dzierżawa własności intelektualnej i podobnych produktów, z wyłączeniem prac chronionych prawem autorskim"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "550",
+    "fields": {
+      "section": "N",
+      "department": "78",
+      "group": "7810Z",
+      "industry": "Działalność związana z wyszukiwaniem miejsc pracy i pozyskiwaniem pracowników"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "551",
+    "fields": {
+      "section": "N",
+      "department": "78",
+      "group": "7820Z",
+      "industry": "Działalność agencji pracy tymczasowej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "552",
+    "fields": {
+      "section": "N",
+      "department": "78",
+      "group": "7830Z",
+      "industry": "Pozostała działalność związana z udostępnianiem pracowników"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "553",
+    "fields": {
+      "section": "N",
+      "department": "79",
+      "group": "7911A",
+      "industry": "Działalność agentów turystycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "554",
+    "fields": {
+      "section": "N",
+      "department": "79",
+      "group": "7911B",
+      "industry": "Działalność pośredników turystycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "555",
+    "fields": {
+      "section": "N",
+      "department": "79",
+      "group": "7912Z",
+      "industry": "Działalność organizatorów turystyki"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "556",
+    "fields": {
+      "section": "N",
+      "department": "79",
+      "group": "7990A",
+      "industry": "Działalność pilotów wycieczek i przewodników turystycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "557",
+    "fields": {
+      "section": "N",
+      "department": "79",
+      "group": "7990B",
+      "industry": "Działalność w zakresie informacji turystycznej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "558",
+    "fields": {
+      "section": "N",
+      "department": "79",
+      "group": "7990C",
+      "industry": "Pozostała działalność usługowa w zakresie rezerwacji, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "559",
+    "fields": {
+      "section": "N",
+      "department": "80",
+      "group": "8010Z",
+      "industry": "Działalność ochroniarska, z wyłączeniem obsługi systemów bezpieczeństwa"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "560",
+    "fields": {
+      "section": "N",
+      "department": "80",
+      "group": "8020Z",
+      "industry": "Działalność ochroniarska w zakresie obsługi systemów bezpieczeństwa"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "561",
+    "fields": {
+      "section": "N",
+      "department": "80",
+      "group": "8030Z",
+      "industry": "Działalność detektywistyczna"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "562",
+    "fields": {
+      "section": "N",
+      "department": "81",
+      "group": "8110Z",
+      "industry": "Działalność pomocnicza związana z utrzymaniem porządku w budynkach"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "563",
+    "fields": {
+      "section": "N",
+      "department": "81",
+      "group": "8121Z",
+      "industry": "Niespecjalistyczne sprzątanie budynków i obiektów przemysłowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "564",
+    "fields": {
+      "section": "N",
+      "department": "81",
+      "group": "8122Z",
+      "industry": "Specjalistyczne sprzątanie budynków i obiektów przemysłowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "565",
+    "fields": {
+      "section": "N",
+      "department": "81",
+      "group": "8129Z",
+      "industry": "Pozostałe sprzątanie"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "566",
+    "fields": {
+      "section": "N",
+      "department": "81",
+      "group": "8130Z",
+      "industry": "Działalność usługowa związana z zagospodarowaniem terenów zieleni"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "567",
+    "fields": {
+      "section": "N",
+      "department": "82",
+      "group": "8211Z",
+      "industry": "Działalność usługowa związana z administracyjną obsługą biura"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "568",
+    "fields": {
+      "section": "N",
+      "department": "82",
+      "group": "8219Z",
+      "industry": "Wykonywanie fotokopii, przygotowywanie dokumentów i pozostała specjalistyczna działalność wspomagająca prowadzenie biura"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "569",
+    "fields": {
+      "section": "N",
+      "department": "82",
+      "group": "8220Z",
+      "industry": "Działalność centrów telefonicznych (call center)"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "570",
+    "fields": {
+      "section": "N",
+      "department": "82",
+      "group": "8230Z",
+      "industry": "Działalność związana z organizacją targów, wystaw i kongresów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "571",
+    "fields": {
+      "section": "N",
+      "department": "82",
+      "group": "8291Z",
+      "industry": "Działalność świadczona przez agencje inkasa i biura kredytowe"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "572",
+    "fields": {
+      "section": "N",
+      "department": "82",
+      "group": "8292Z",
+      "industry": "Działalność związana z pakowaniem"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "573",
+    "fields": {
+      "section": "N",
+      "department": "82",
+      "group": "8299Z",
+      "industry": "Pozostała działalność wspomagająca prowadzenie działalności gospodarczej, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "574",
+    "fields": {
+      "section": "O",
+      "department": "84",
+      "group": "8411Z",
+      "industry": "Kierowanie podstawowymi rodzajami działalności publicznej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "575",
+    "fields": {
+      "section": "O",
+      "department": "84",
+      "group": "8412Z",
+      "industry": "Kierowanie w zakresie działalności związanej z ochroną zdrowia, edukacją, kulturą oraz pozostałymi usługami społecznymi, z wyłączeniem zabezpieczeń społecznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "576",
+    "fields": {
+      "section": "O",
+      "department": "84",
+      "group": "8413Z",
+      "industry": "Kierowanie w zakresie efektywności gospodarowania"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "577",
+    "fields": {
+      "section": "O",
+      "department": "84",
+      "group": "8421Z",
+      "industry": "Sprawy zagraniczne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "578",
+    "fields": {
+      "section": "O",
+      "department": "84",
+      "group": "8422Z",
+      "industry": "Obrona narodowa"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "579",
+    "fields": {
+      "section": "O",
+      "department": "84",
+      "group": "8423Z",
+      "industry": "Wymiar sprawiedliwości"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "580",
+    "fields": {
+      "section": "O",
+      "department": "84",
+      "group": "8424Z",
+      "industry": "Bezpieczeństwo państwa, porządek i bezpieczeństwo publiczne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "581",
+    "fields": {
+      "section": "O",
+      "department": "84",
+      "group": "8425Z",
+      "industry": "Ochrona przeciwpożarowa"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "582",
+    "fields": {
+      "section": "O",
+      "department": "84",
+      "group": "8430Z",
+      "industry": "Obowiązkowe zabezpieczenia społeczne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "583",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8510Z",
+      "industry": "Wychowanie przedszkolne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "584",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8520Z",
+      "industry": "Szkoły podstawowe"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "585",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8531A",
+      "industry": "Gimnazja"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "586",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8531B",
+      "industry": "Licea ogólnokształcące"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "587",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8531C",
+      "industry": "Licea profilowane"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "588",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8532A",
+      "industry": "Technika"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "589",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8532B",
+      "industry": "Zasadnicze szkoły zawodowe"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "590",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8532C",
+      "industry": "Szkoły specjalne przysposabiające do pracy"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "591",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8541Z",
+      "industry": "Szkoły policealne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "592",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8542A",
+      "industry": "Zakłady kształcenia nauczycieli i kolegia pracowników służb społecznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "593",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8542B",
+      "industry": "Szkoły wyższe"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "594",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8551Z",
+      "industry": "Pozaszkolne formy edukacji sportowej oraz zajęć sportowych i rekreacyjnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "595",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8552Z",
+      "industry": "Pozaszkolne formy edukacji artystycznej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "596",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8553Z",
+      "industry": "Pozaszkolne formy edukacji z zakresu nauki jazdy i pilotażu"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "597",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8559A",
+      "industry": "Nauka języków obcych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "598",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8559B",
+      "industry": "Pozostałe pozaszkolne formy edukacji, gdzie indziej niesklasyfikowane"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "599",
+    "fields": {
+      "section": "P",
+      "department": "85",
+      "group": "8560Z",
+      "industry": "Działalność wspomagająca edukację"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "600",
+    "fields": {
+      "section": "Q",
+      "department": "86",
+      "group": "8610Z",
+      "industry": "Działalność szpitali"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "601",
+    "fields": {
+      "section": "Q",
+      "department": "86",
+      "group": "8621Z",
+      "industry": "Praktyka lekarska ogólna"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "602",
+    "fields": {
+      "section": "Q",
+      "department": "86",
+      "group": "8622Z",
+      "industry": "Praktyka lekarska specjalistyczna"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "603",
+    "fields": {
+      "section": "Q",
+      "department": "86",
+      "group": "8623Z",
+      "industry": "Praktyka lekarska dentystyczna"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "604",
+    "fields": {
+      "section": "Q",
+      "department": "86",
+      "group": "8690A",
+      "industry": "Działalność fizjoterapeutyczna"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "605",
+    "fields": {
+      "section": "Q",
+      "department": "86",
+      "group": "8690B",
+      "industry": "Działalność pogotowia ratunkowego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "606",
+    "fields": {
+      "section": "Q",
+      "department": "86",
+      "group": "8690C",
+      "industry": "Praktyka pielęgniarek i położnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "607",
+    "fields": {
+      "section": "Q",
+      "department": "86",
+      "group": "8690D",
+      "industry": "Działalność paramedyczna"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "608",
+    "fields": {
+      "section": "Q",
+      "department": "86",
+      "group": "8690E",
+      "industry": "Pozostała działalność w zakresie opieki zdrowotnej, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "609",
+    "fields": {
+      "section": "Q",
+      "department": "87",
+      "group": "8710Z",
+      "industry": "Pomoc społeczna z zakwaterowaniem zapewniająca opiekę pielęgniarską"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "610",
+    "fields": {
+      "section": "Q",
+      "department": "87",
+      "group": "8720Z",
+      "industry": "Pomoc społeczna z zakwaterowaniem dla osób z zaburzeniami psychicznymi"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "611",
+    "fields": {
+      "section": "Q",
+      "department": "87",
+      "group": "8730Z",
+      "industry": "Pomoc społeczna z zakwaterowaniem dla osób w podeszłym wieku i osób niepełnosprawnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "612",
+    "fields": {
+      "section": "Q",
+      "department": "87",
+      "group": "8790Z",
+      "industry": "Pozostała pomoc społeczna z zakwaterowaniem"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "613",
+    "fields": {
+      "section": "Q",
+      "department": "88",
+      "group": "8810Z",
+      "industry": "Pomoc społeczna bez zakwaterowania dla osób w podeszłym wieku i osób niepełnosprawnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "614",
+    "fields": {
+      "section": "Q",
+      "department": "88",
+      "group": "8891Z",
+      "industry": "Opieka dzienna nad dziećmi"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "615",
+    "fields": {
+      "section": "Q",
+      "department": "88",
+      "group": "8899Z",
+      "industry": "Pozostała pomoc społeczna bez zakwaterowania, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "616",
+    "fields": {
+      "section": "R",
+      "department": "90",
+      "group": "9001Z",
+      "industry": "Działalność związana z wystawianiem przedstawień artystycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "617",
+    "fields": {
+      "section": "R",
+      "department": "90",
+      "group": "9002Z",
+      "industry": "Działalność wspomagająca wystawianie przedstawień artystycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "618",
+    "fields": {
+      "section": "R",
+      "department": "90",
+      "group": "9003Z",
+      "industry": "Artystyczna i literacka działalność twórcza"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "619",
+    "fields": {
+      "section": "R",
+      "department": "90",
+      "group": "9004Z",
+      "industry": "Działalność obiektów kulturalnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "620",
+    "fields": {
+      "section": "R",
+      "department": "91",
+      "group": "9101A",
+      "industry": "Działalność bibliotek"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "621",
+    "fields": {
+      "section": "R",
+      "department": "91",
+      "group": "9101B",
+      "industry": "Działalność archiwów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "622",
+    "fields": {
+      "section": "R",
+      "department": "91",
+      "group": "9102Z",
+      "industry": "Działalność muzeów"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "623",
+    "fields": {
+      "section": "R",
+      "department": "91",
+      "group": "9103Z",
+      "industry": "Działalność historycznych miejsc i budynków oraz podobnych atrakcji turystycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "624",
+    "fields": {
+      "section": "R",
+      "department": "91",
+      "group": "9104Z",
+      "industry": "Działalność ogrodów botanicznych i zoologicznych oraz obszarów i obiektów ochrony przyrody"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "625",
+    "fields": {
+      "section": "R",
+      "department": "92",
+      "group": "9200Z",
+      "industry": "DZIAŁALNOŚĆ ZWIĄZANA Z GRAMI LOSOWYMI I ZAKŁADAMI WZAJEMNYMI"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "626",
+    "fields": {
+      "section": "R",
+      "department": "93",
+      "group": "9311Z",
+      "industry": "Działalność obiektów sportowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "627",
+    "fields": {
+      "section": "R",
+      "department": "93",
+      "group": "9312Z",
+      "industry": "Działalność klubów sportowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "628",
+    "fields": {
+      "section": "R",
+      "department": "93",
+      "group": "9313Z",
+      "industry": "Działalność obiektów służących poprawie kondycji fizycznej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "629",
+    "fields": {
+      "section": "R",
+      "department": "93",
+      "group": "9319Z",
+      "industry": "Pozostała działalność związana ze sportem"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "630",
+    "fields": {
+      "section": "R",
+      "department": "93",
+      "group": "9321Z",
+      "industry": "Działalność wesołych miasteczek i parków rozrywki"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "631",
+    "fields": {
+      "section": "R",
+      "department": "93",
+      "group": "9329Z",
+      "industry": "Pozostała działalność rozrywkowa i rekreacyjna"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "632",
+    "fields": {
+      "section": "S",
+      "department": "94",
+      "group": "9411Z",
+      "industry": "Działalność organizacji komercyjnych i pracodawców"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "633",
+    "fields": {
+      "section": "S",
+      "department": "94",
+      "group": "9412Z",
+      "industry": "Działalność organizacji profesjonalnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "634",
+    "fields": {
+      "section": "S",
+      "department": "94",
+      "group": "9420Z",
+      "industry": "Działalność związków zawodowych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "635",
+    "fields": {
+      "section": "S",
+      "department": "94",
+      "group": "9491Z",
+      "industry": "Działalność organizacji religijnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "636",
+    "fields": {
+      "section": "S",
+      "department": "94",
+      "group": "9492Z",
+      "industry": "Działalność organizacji politycznych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "637",
+    "fields": {
+      "section": "S",
+      "department": "94",
+      "group": "9499Z",
+      "industry": "Działalność pozostałych organizacji członkowskich, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "638",
+    "fields": {
+      "section": "S",
+      "department": "95",
+      "group": "9511Z",
+      "industry": "Naprawa i konserwacja komputerów i urządzeń peryferyjnych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "639",
+    "fields": {
+      "section": "S",
+      "department": "95",
+      "group": "9512Z",
+      "industry": "Naprawa i konserwacja sprzętu (tele)komunikacyjnego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "640",
+    "fields": {
+      "section": "S",
+      "department": "95",
+      "group": "9521Z",
+      "industry": "Naprawa i konserwacja elektronicznego sprzętu powszechnego użytku"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "641",
+    "fields": {
+      "section": "S",
+      "department": "95",
+      "group": "9522Z",
+      "industry": "Naprawa i konserwacja urządzeń gospodarstwa domowego oraz sprzętu użytku domowego i ogrodniczego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "642",
+    "fields": {
+      "section": "S",
+      "department": "95",
+      "group": "9523Z",
+      "industry": "Naprawa obuwia i wyrobów skórzanych"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "643",
+    "fields": {
+      "section": "S",
+      "department": "95",
+      "group": "9524Z",
+      "industry": "Naprawa i konserwacja mebli i wyposażenia domowego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "644",
+    "fields": {
+      "section": "S",
+      "department": "95",
+      "group": "9525Z",
+      "industry": "Naprawa zegarów, zegarków oraz biżuterii"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "645",
+    "fields": {
+      "section": "S",
+      "department": "95",
+      "group": "9529Z",
+      "industry": "Naprawa pozostałych artykułów użytku osobistego i domowego"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "646",
+    "fields": {
+      "section": "S",
+      "department": "96",
+      "group": "9601Z",
+      "industry": "Pranie i czyszczenie wyrobów włókienniczych i futrzarskich"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "647",
+    "fields": {
+      "section": "S",
+      "department": "96",
+      "group": "9602Z",
+      "industry": "Fryzjerstwo i pozostałe zabiegi kosmetyczne"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "648",
+    "fields": {
+      "section": "S",
+      "department": "96",
+      "group": "9603Z",
+      "industry": "Pogrzeby i działalność pokrewna"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "649",
+    "fields": {
+      "section": "S",
+      "department": "96",
+      "group": "9604Z",
+      "industry": "Działalność usługowa związana z poprawą kondycji fizycznej"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "650",
+    "fields": {
+      "section": "S",
+      "department": "96",
+      "group": "9609Z",
+      "industry": "Pozostała działalność usługowa, gdzie indziej niesklasyfikowana"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "651",
+    "fields": {
+      "section": "T",
+      "department": "97",
+      "group": "9700Z",
+      "industry": "GOSPODARSTWA DOMOWE ZATRUDNIAJĄCE PRACOWNIKÓW"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "652",
+    "fields": {
+      "section": "T",
+      "department": "98",
+      "group": "9810Z",
+      "industry": "Gospodarstwa domowe produkujące wyroby na własne potrzeby"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "653",
+    "fields": {
+      "section": "T",
+      "department": "98",
+      "group": "9820Z",
+      "industry": "Gospodarstwa domowe świadczące usługi na własne potrzeby"
+    }
+  },
+  {
+    "model": "companies.polishclassificationofactivities",
+    "pk": "654",
+    "fields": {
+      "section": "U",
+      "department": "99",
+      "group": "9900Z",
+      "industry": "ORGANIZACJE I ZESPOŁY EKSTERYTORIALNE"
+    }
+  }
+]

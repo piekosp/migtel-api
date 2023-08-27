@@ -39,6 +39,12 @@ CORS_ALLOWED_ORIGINS = env("DJANGO_CORS_ALLOWED_ORIGINS", "").split(",")
 CSRF_TRUSTED_ORIGINS = env("DJANGO_CSRF_TRUSTED_ORIGINS", "").split(",")
 
 
+WORKBEE_URL = env("WORKBEE_URL")
+WORKBEE_USER = env("WORKBEE_USER")
+WORKBEE_PASSWORD = env("WORKBEE_PASSWORD")
+WORKBEE_ID = env("WORKBEE_ID")
+
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -170,10 +176,9 @@ else:
     STATIC_URL = "/staticfiles/"
     STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
     MEDIA_URL = "/media/"
-    MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+    MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
     STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 
 MEDIA_LOCATION = MEDIA_URL if USE_S3 else MEDIA_ROOT
 
