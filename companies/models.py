@@ -5,11 +5,15 @@ class PolishClassificationOfActivities(models.Model):
     section = models.CharField(max_length=1)
     department = models.CharField(max_length=2)
     group = models.CharField(max_length=5)
+    industry = models.CharField(max_length=255, null=True, blank=True, unique=True)
+
+    def __str__(self):
+        return f"{self.group} - {self.industry}"
 
 
 class Company(models.Model):
     nip = models.CharField(null=True, blank=True, unique=True, max_length=10)
-    krs = models.CharField(null=True, blank=True, unique=True, max_length=10)
+    krs = models.CharField(null=True, blank=True, max_length=10)
     regon = models.CharField(null=True, blank=True, max_length=14)
     name = models.CharField(max_length=255)
     address1 = models.CharField(null=True, blank=True, max_length=60)
@@ -34,15 +38,28 @@ class Company(models.Model):
     establishment_date = models.DateField()
     start_date = models.DateField()
 
+    def __str__(self):
+        return self.name
+
 
 class Phone(models.Model):
-    company = models.ForeignKey(Company, on_delete=models.CASCADE, verbose_name="phone")
+    company = models.ForeignKey(
+        Company, on_delete=models.CASCADE, verbose_name="phone", null=True
+    )
     number = models.CharField(max_length=14)
+
+    def __str__(self):
+        return self.number
 
 
 class Email(models.Model):
-    company = models.ForeignKey(Company, on_delete=models.CASCADE, verbose_name="email")
+    company = models.ForeignKey(
+        Company, on_delete=models.CASCADE, verbose_name="email", null=True
+    )
     address = models.CharField(max_length=60)
+
+    def __str__(self):
+        return self.address
 
 
 class CsvFile(models.Model):
