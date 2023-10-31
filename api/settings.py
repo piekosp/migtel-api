@@ -61,7 +61,6 @@ INSTALLED_APPS = [
     "storages",
     "users",
     "companies",
-    "jobs",
 ]
 
 MIDDLEWARE = [
