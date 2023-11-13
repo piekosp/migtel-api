@@ -161,6 +161,8 @@ USE_TZ = True
 
 USE_S3 = env("USE_S3") == "True"
 
+LOCAL_HOST = "http://localhost:8080"
+
 if USE_S3:
     AWS_ACCESS_KEY_ID = env("AWS_ACCESS_KEY_ID")
     AWS_SECRET_ACCESS_KEY = env("AWS_SECRET_ACCESS_KEY")
@@ -180,7 +182,7 @@ else:
     STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 
-MEDIA_LOCATION = MEDIA_URL if USE_S3 else MEDIA_ROOT
+MEDIA_LOCATION = MEDIA_URL if USE_S3 else LOCAL_HOST + MEDIA_URL
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
