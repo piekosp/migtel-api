@@ -1,13 +1,14 @@
 from celery import shared_task
 
-from api.utils import FileExporter, FileImporter, send_email
+from api.utils import File, FileExporter, FileImporter, send_email
 
 from .utils import CompanyDataExporter, CompanyDataImporter
 
 
 @shared_task()
 def load_companies_from_csv(file_path):
-    importer = FileImporter(file_path, data_extractor=CompanyDataImporter)
+    file = File(file_path)
+    importer = FileImporter(file, data_extractor=CompanyDataImporter)
     companies = importer.load_data()
     for company in companies:
         company.save()

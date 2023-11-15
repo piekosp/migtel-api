@@ -32,6 +32,9 @@ SECRET_KEY = env("DJANGO_SECRET_KEY", "secret_key")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env("DJANGO_DEBUG") == "True"
 
+
+BASE_URL = env("DJANGO_BASE_URL")
+
 ALLOWED_HOSTS = env("DJANGO_ALLOWED_HOSTS", "").split(",")
 
 CORS_ALLOWED_ORIGINS = env("DJANGO_CORS_ALLOWED_ORIGINS", "").split(",")
@@ -171,7 +174,8 @@ if USE_S3:
     AWS_S3_CUSTOM_DOMAIN = f"{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com"
     AWS_S3_OBJECT_PARAMETERS = {"CacheControl": "max-age=86400"}
     STATIC_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/staticfiles/"
-    MEDIA_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/media/"
+    MEDIA_ROOT = f"https://{AWS_S3_CUSTOM_DOMAIN}/media/"
+    MEDIA_URL = MEDIA_ROOT
     STATICFILES_STORAGE = "api.storages.StaticStorage"
     DEFAULT_FILE_STORAGE = "api.storages.MediaStorage"
 else:
@@ -181,8 +185,6 @@ else:
     MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
     STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-
-MEDIA_LOCATION = MEDIA_URL if USE_S3 else LOCAL_HOST + MEDIA_URL
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
