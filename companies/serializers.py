@@ -15,12 +15,6 @@ class PolishClassificationOfActivitiesSerializer(serializers.ModelSerializer):
         fields = ["section", "department", "group", "industry"]
 
 
-class CompaniesSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Company
-        fields = "__all__"
-
-
 class CompanySerializer(serializers.ModelSerializer):
     pca = PolishClassificationOfActivitiesSerializer()
 

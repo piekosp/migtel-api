@@ -1,6 +1,6 @@
 from celery import shared_task
 
-from .utils import send_email
+from api.utils import send_email
 
 
 @shared_task()

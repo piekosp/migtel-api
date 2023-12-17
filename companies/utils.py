@@ -3,7 +3,7 @@ from datetime import datetime
 from .models import Company, Email, Phone, PolishClassificationOfActivities
 
 
-class CompanyDataExtractor:
+class CompanyDataImporter:
     def __init__(self, row):
         self.row = row
 
@@ -90,3 +90,54 @@ class CompanyDataExtractor:
             )
 
         return company_object
+
+
+class CompanyDataExporter:
+    def __init__(self, data):
+        self.data = data
+
+    def get_headers(self):
+        return [
+            "NIP",
+            "KRS",
+            "REGON",
+            "Nazwa",
+            "Adres1",
+            "Adres2",
+            "Kod pocztowy",
+            "Miejscowość",
+            "Województwo",
+            "Strona WWW",
+            "Facebook",
+            "LinkedIn",
+            "Przedział zatrudnienia",
+            "Podstawowa forma prawna",
+            "Szczególna forma prawna",
+            "Data powstania",
+            "Data rozpoczęcia działalności",
+        ]
+
+    def translate_column_name(self, row):
+        return {
+            "NIP": row["nip"],
+            "KRS": row["krs"],
+            "REGON": row["regon"],
+            "Nazwa": row["name"],
+            "Adres1": row["address1"],
+            "Adres2": row["address2"],
+            "Kod pocztowy": row["zip"],
+            "Miejscowość": row["city"],
+            "Województwo": row["state"],
+            "Strona WWW": row["website"],
+            "Facebook": row["facebook"],
+            "LinkedIn": row["linkedin"],
+            "Przedział zatrudnienia": row["employment_range"],
+            "Podstawowa forma prawna": row["basic_legal_form"],
+            "Szczególna forma prawna": row["specific_legal_form"],
+            "Data powstania": row["establishment_date"],
+            "Data rozpoczęcia działalności": row["start_date"],
+        }
+
+    def get_row(self):
+        for row in self.data:
+            yield self.translate_column_name(row)
