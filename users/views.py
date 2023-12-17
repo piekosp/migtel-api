@@ -3,6 +3,8 @@ from rest_framework import generics, status, views
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
+from api.pagination import DefaultPagination
+
 from .models import User
 from .permissions import (
     CanDeleteUser,
@@ -26,7 +28,7 @@ from .tasks import (
 from .tokens import activation_token, employee_setup_token, password_reset_token
 
 
-class UserListCreateView(views.APIView):
+class UserListCreateView(views.APIView, DefaultPagination):
     def get_permissions(self):
         permission_classes = []
         if self.request.method == "GET":
@@ -48,8 +50,9 @@ class UserListCreateView(views.APIView):
 
     def get(self, request, format=None):
         queryset = self.get_queryset(request)
-        serializer = UserSerializer(queryset, many=True)
-        return Response(serializer.data)
+        items = self.paginate_queryset(queryset, request, view=self)
+        serializer = UserSerializer(items, many=True)
+        return self.get_paginated_response(serializer.data)
 
     def post(self, request, format=None):
         serializer = UserSerializer(context={"request": request}, data=request.data)

@@ -9,8 +9,8 @@ class DefaultPagination(LimitOffsetPagination):
         return Response(
             OrderedDict(
                 [
-                    ("total_items", self.count),
-                    ("results", data),
+                    ("total", self.count),
+                    ("items", data),
                 ]
             )
         )
