@@ -1,5 +1,5 @@
 from rest_framework import status, views
-from rest_framework.generics import ListAPIView
+from rest_framework.generics import ListAPIView, RetrieveUpdateAPIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
@@ -7,7 +7,7 @@ from users.permissions import IsManager
 
 from .filters import CompanyFilter
 from .models import Company
-from .serializers import CompanySerializer, CsvUploadSerializer
+from .serializers import CompanySerializer, CompanyUpdateSerializer, CsvUploadSerializer
 from .tasks import export_companies_to_csv, load_companies_from_csv
 
 
@@ -29,6 +29,17 @@ class CompaniesListView(ListAPIView):
     permission_classes = [IsAuthenticated, IsManager]
     serializer_class = CompanySerializer
     filterset_class = CompanyFilter
+
+
+class CompaniesRetrieveUpdateView(RetrieveUpdateAPIView):
+    queryset = Company.objects.all()
+    permission_classes = [IsAuthenticated, IsManager]
+    serializer_class = CompanyUpdateSerializer
+
+    def get_serializer_class(self):
+        if self.request.method == "GET":
+            return CompanySerializer
+        return CompanyUpdateSerializer
 
 
 class CompaniesExportView(views.APIView):
