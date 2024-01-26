@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from .models import Company, Email, Phone, PolishClassificationOfActivities
+from .models import Company, PolishClassificationOfActivities
 
 
 class CompanyDataImporter:
@@ -9,15 +9,6 @@ class CompanyDataImporter:
 
     def extract_data(self):
         company = self.company
-
-        for email in self.emails:
-            email.company = company
-            email.save()
-
-        for phone in self.phones:
-            phone.company = company
-            phone.save()
-
         company.pca = self.pca
         company.save()
 
@@ -35,16 +26,6 @@ class CompanyDataImporter:
             pca_object = None
 
         return pca_object
-
-    @property
-    def phones(self):
-        phones = list(filter(None, [self.row["Telefon1"], self.row["Telefon2"]]))
-        return [Phone.objects.create(number=phone) for phone in phones]
-
-    @property
-    def emails(self):
-        emails = list(filter(None, [self.row["Email1"], self.row["Email2"]]))
-        return [Email.objects.create(address=email) for email in emails]
 
     @property
     def company(self):
@@ -69,6 +50,10 @@ class CompanyDataImporter:
             "zip": self.row["Kod pocztowy"],
             "city": self.row["Miejscowość"],
             "state": self.row["Województwo"],
+            "phone1": self.row["Telefon1"],
+            "phone2": self.row["Telefon2"],
+            "email1": self.row["Email1"],
+            "email2": self.row["Email2"],
             "website": self.row["Strona WWW"],
             "facebook": self.row["Facebook"],
             "linkedin": self.row["LinkedIn"],

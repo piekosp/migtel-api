@@ -21,6 +21,10 @@ class Company(models.Model):
     zip = models.CharField(null=True, blank=True, max_length=6)
     city = models.CharField(null=True, blank=True, max_length=30)
     state = models.CharField(null=True, blank=True, max_length=30)
+    phone1 = models.CharField(null=True, blank=True, max_length=14)
+    phone2 = models.CharField(null=True, blank=True, max_length=14)
+    email1 = models.CharField(null=True, blank=True, max_length=60)
+    email2 = models.CharField(null=True, blank=True, max_length=60)
     website = models.CharField(blank=True, null=True, max_length=100)
     facebook = models.CharField(blank=True, null=True, max_length=100)
     linkedin = models.CharField(blank=True, null=True, max_length=100)
@@ -40,26 +44,6 @@ class Company(models.Model):
 
     def __str__(self):
         return self.name
-
-
-class Phone(models.Model):
-    company = models.ForeignKey(
-        Company, on_delete=models.CASCADE, verbose_name="phone", null=True
-    )
-    number = models.CharField(max_length=14)
-
-    def __str__(self):
-        return self.number
-
-
-class Email(models.Model):
-    company = models.ForeignKey(
-        Company, on_delete=models.CASCADE, verbose_name="email", null=True
-    )
-    address = models.CharField(max_length=60)
-
-    def __str__(self):
-        return self.address
 
 
 class CsvFile(models.Model):

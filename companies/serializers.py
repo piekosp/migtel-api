@@ -83,7 +83,7 @@ class CompanySerializer(serializers.ModelSerializer):
         ]
 
     def get_phones(self, obj):
-        return list(obj.phone_set.values_list("number", flat=True))
+        return [phone for phone in (obj.phone1, obj.phone2) if phone]
 
     def get_emails(self, obj):
-        return list(obj.email_set.values_list("address", flat=True))
+        return [email for email in (obj.email1, obj.email2) if email]
