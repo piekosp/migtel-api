@@ -7,7 +7,7 @@ from users.permissions import IsManager
 
 from .filters import CompanyFilter
 from .models import Company
-from .serializers import CompanySerializer, CompanyUpdateSerializer, CsvUploadSerializer
+from .serializers import CompanySerializer, CsvUploadSerializer
 from .tasks import export_companies_to_csv, load_companies_from_csv
 
 
@@ -34,12 +34,7 @@ class CompaniesListView(ListAPIView):
 class CompaniesRetrieveUpdateView(RetrieveUpdateAPIView):
     queryset = Company.objects.all()
     permission_classes = [IsAuthenticated, IsManager]
-    serializer_class = CompanyUpdateSerializer
-
-    def get_serializer_class(self):
-        if self.request.method == "GET":
-            return CompanySerializer
-        return CompanyUpdateSerializer
+    serializer_class = CompanySerializer
 
 
 class CompaniesExportView(views.APIView):
