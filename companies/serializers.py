@@ -39,6 +39,10 @@ class CompanyUpdateSerializer(serializers.ModelSerializer):
             "zip",
             "city",
             "state",
+            "phone1",
+            "phone2",
+            "email1",
+            "email2",
             "website",
             "facebook",
             "linkedin",
@@ -52,8 +56,6 @@ class CompanyUpdateSerializer(serializers.ModelSerializer):
 
 class CompanySerializer(serializers.ModelSerializer):
     pca = PCAField()
-    phones = serializers.SerializerMethodField()
-    emails = serializers.SerializerMethodField()
 
     class Meta:
         model = Company
@@ -68,8 +70,10 @@ class CompanySerializer(serializers.ModelSerializer):
             "zip",
             "city",
             "state",
-            "phones",
-            "emails",
+            "phone1",
+            "phone2",
+            "email2",
+            "email2",
             "website",
             "facebook",
             "linkedin",
@@ -81,9 +85,3 @@ class CompanySerializer(serializers.ModelSerializer):
             "establishment_date",
             "start_date",
         ]
-
-    def get_phones(self, obj):
-        return [phone for phone in (obj.phone1, obj.phone2) if phone]
-
-    def get_emails(self, obj):
-        return [email for email in (obj.email1, obj.email2) if email]
