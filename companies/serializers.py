@@ -26,34 +26,6 @@ class PolishClassificationOfActivitiesSerializer(serializers.ModelSerializer):
         fields = ["section", "department", "group", "industry"]
 
 
-class CompanyUpdateSerializer(serializers.ModelSerializer):
-    pca = PCAField()
-
-    class Meta:
-        model = Company
-        fields = [
-            "id",
-            "name",
-            "address1",
-            "address2",
-            "zip",
-            "city",
-            "state",
-            "phone1",
-            "phone2",
-            "email1",
-            "email2",
-            "website",
-            "facebook",
-            "linkedin",
-            "pca",
-            "employment_range",
-            "basic_legal_form",
-            "specific_legal_form",
-            "ownership_form",
-        ]
-
-
 class CompanySerializer(serializers.ModelSerializer):
     pca = PCAField()
 
@@ -72,7 +44,7 @@ class CompanySerializer(serializers.ModelSerializer):
             "state",
             "phone1",
             "phone2",
-            "email2",
+            "email1",
             "email2",
             "website",
             "facebook",
@@ -82,6 +54,13 @@ class CompanySerializer(serializers.ModelSerializer):
             "basic_legal_form",
             "specific_legal_form",
             "ownership_form",
+            "establishment_date",
+            "start_date",
+        ]
+        read_only_fields = [
+            "nip",
+            "krs",
+            "regon",
             "establishment_date",
             "start_date",
         ]
