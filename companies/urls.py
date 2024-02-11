@@ -5,6 +5,8 @@ from .views import (
     CompaniesListView,
     CompaniesRetrieveUpdateView,
     CsvUploadView,
+    ProjectView,
+    TestView,
 )
 
 app_name = "companies"
@@ -14,4 +16,6 @@ urlpatterns = [
     path("<int:pk>/", CompaniesRetrieveUpdateView.as_view(), name="retrieve-update"),
     path("upload/", CsvUploadView.as_view(), name="csv_upload"),
     path("export/", CompaniesExportView.as_view(), name="csv_export"),
+    path("projects/", ProjectView.as_view(), name="projects"),
+    path("test/", TestView.as_view(), name="test"),
 ]

@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Company, CsvFile, PolishClassificationOfActivities
+from .models import Company, CsvFile, PolishClassificationOfActivities, Project
 
 
 class PCAField(serializers.Field):
@@ -64,3 +64,9 @@ class CompanySerializer(serializers.ModelSerializer):
             "establishment_date",
             "start_date",
         ]
+
+
+class ProjectSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Project
+        fields = ["name", "criteria"]

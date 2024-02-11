@@ -126,3 +126,21 @@ class CompanyDataExporter:
     def get_row(self):
         for row in self.data:
             yield self.translate_column_name(row)
+
+
+def get_lookup_for_criteria(criteria: dict) -> dict:
+    lookup = {}
+
+    def recursive_search(criteria: dict, prefix=""):
+        for key, value in criteria.items():
+            if type(value) != dict:
+                key = key + "__in"
+                if prefix:
+                    key = prefix + f"__{key}"
+                lookup[key] = value
+            else:
+                recursive_search(value, key)
+
+    recursive_search(criteria)
+
+    return lookup
