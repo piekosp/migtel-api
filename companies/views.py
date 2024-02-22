@@ -1,4 +1,7 @@
+from datetime import datetime
+
 from django.db.models import Q
+from django.shortcuts import get_object_or_404
 from rest_framework import status, views
 from rest_framework.generics import (
     ListAPIView,
@@ -8,7 +11,7 @@ from rest_framework.generics import (
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
-from users.permissions import IsManager
+from users.permissions import IsAnalyst, IsManager
 
 from .filters import CompanyFilter
 from .models import Company, CompanyStatus, Project
@@ -58,38 +61,61 @@ class CompaniesExportView(views.APIView):
 
 class ProjectView(ListCreateAPIView):
     queryset = Project.objects.all()
-    # permission_classes = [IsAuthenticated, IsManager]
+    permission_classes = [IsAuthenticated, IsManager]
     serializer_class = ProjectSerializer
 
 
-class TestView(views.APIView):
-    permission_classes = [IsAuthenticated, IsManager]
+class CompaniesCollectView(views.APIView):
+    permission_classes = [IsAuthenticated, IsManager, IsAnalyst]
 
     def get(self, request, format=None):
         user = request.user
-        assigned_company = Company.objects.filter(
+
+        previous_company = Company.objects.filter(
             status__assigned_user=user,
             status__completed=False,
         ).first()
 
-        if assigned_company:
-            serializer = CompanySerializer(instance=assigned_company)
+        if previous_company:
+            serializer = CompanySerializer(instance=previous_company)
             return Response(status=200, data=serializer.data)
 
-        project = Project.objects.get(id=2)
-        lookup = get_lookup_for_criteria(project.criteria)
-        company = (
+        lookup = get_lookup_for_criteria(user.project.criteria)
+        next_company = (
             Company.objects.filter(
-                ~Q(status__completed=True), ~Q(status__taken=True), **lookup
+                ~Q(status__completed=True),
+                Q(status__assigned_user__isnull=True),
+                **lookup
             )
             .select_related("pca")
             .first()
         )
-        if company:
-            CompanyStatus.objects.create(
-                company=company, assigned_user=user, taken=True
-            )
-            serializer = CompanySerializer(instance=company)
+        if next_company:
+            CompanyStatus.objects.create(company=next_company, assigned_user=user)
+            serializer = CompanySerializer(instance=next_company)
             return Response(status=200, data=serializer.data)
 
         return Response(status=404)
+
+    def post(self, request, format=None):
+        company_id = request.data.get("id")
+        if not company_id:
+            raise Exception  # TODO: create custom exception or return 404
+
+        instance = get_object_or_404(Company, id=company_id)
+        edited_company = Company.objects.get(status__assigned_user=request.user)
+        if instance != edited_company:
+            raise Exception  # TODO: create custom exception or return 404
+
+        serializer = CompanySerializer(edited_company, data=request.data, partial=True)
+        serializer.is_valid(raise_exception=True)
+        company = serializer.save()
+
+        self.complete_company_status(company)
+
+        return Response(status=200, data=request.data)
+
+    def complete_company_status(self, company):
+        company.status.completed = True
+        company.status.completed_on = datetime.now()
+        company.status.save()

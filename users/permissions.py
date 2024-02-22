@@ -8,6 +8,11 @@ class IsManager(BasePermission):
         return request.user.role in User.MANAGER_ROLES
 
 
+class IsAnalyst(BasePermission):
+    def has_permission(self, request, view):
+        return request.user.role == User.ANALYST
+
+
 class IsManagerOrSelf(BasePermission):
     def has_object_permission(self, request, view, obj):
         return request.user.role in User.MANAGER_ROLES or obj == request.user

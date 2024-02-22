@@ -59,12 +59,17 @@ class Project(models.Model):
     name = models.CharField(max_length=255, unique=True)
     criteria = models.JSONField()
 
+    def __str__(self):
+        return self.name
+
 
 class CompanyStatus(models.Model):
     company = models.OneToOneField(
-        Company, on_delete=models.CASCADE, primary_key=True, related_name="status"
+        Company,
+        on_delete=models.CASCADE,
+        primary_key=True,
+        related_name="status",
     )
     assigned_user = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
-    taken = models.BooleanField(default=False)
     completed = models.BooleanField(default=False)
     completed_on = models.DateField(null=True)
