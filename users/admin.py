@@ -9,9 +9,7 @@ from .models import User
 
 class UserCreationForm(forms.ModelForm):
     password1 = forms.CharField(label="Password", widget=forms.PasswordInput)
-    password2 = forms.CharField(
-        label="Password confirmation", widget=forms.PasswordInput
-    )
+    password2 = forms.CharField(label="Password confirmation", widget=forms.PasswordInput)
 
     class Meta:
         model = User
@@ -43,6 +41,7 @@ class UserChangeForm(forms.ModelForm):
             "first_name",
             "last_name",
             "role",
+            "project",
             "is_active",
             "is_admin",
         )
@@ -60,7 +59,18 @@ class UserAdmin(BaseUserAdmin):
     list_display = ("name", "email", "role", "is_admin", "is_active")
     list_filter = ("is_admin", "role")
     fieldsets = (
-        (None, {"fields": ("email", "first_name", "last_name", "password")}),
+        (
+            None,
+            {
+                "fields": (
+                    "email",
+                    "first_name",
+                    "last_name",
+                    "password",
+                    "project",
+                )
+            },
+        ),
         (
             "Permissions",
             {"fields": ("role", "is_admin", "is_active")},

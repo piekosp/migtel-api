@@ -58,6 +58,9 @@ class User(AbstractBaseUser, PermissionsMixin):
     first_name = models.CharField(verbose_name="first name", max_length=255, blank=True)
     last_name = models.CharField(verbose_name="last name", max_length=255, blank=True)
     role = models.CharField(max_length=11, choices=ROLE_CHOICES, default=CLIENT)
+    project = models.ForeignKey(
+        "companies.Project", null=True, on_delete=models.SET_NULL
+    )
     is_active = models.BooleanField(default=False)
     is_admin = models.BooleanField(default=False)
 

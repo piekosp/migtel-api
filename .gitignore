@@ -130,3 +130,9 @@ dmypy.json
 
 # Mac files
 .DS_Store
+
+# Editor config
+.vscode
+
+# Media files
+/media

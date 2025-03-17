@@ -1,0 +1,18 @@
+setup:
+  addons:
+    - plan: heroku-postgresql
+      as: DATABASE
+build:
+  docker:
+    web: Dockerfile
+    celery: Dockerfile
+release:
+  image: web
+  command:
+    - python manage.py migrate
+    - python manage.py collectstatic --noinput
+    - heroku ps:scale web=1
+    - heroku ps:scale celery=1
+run:
+  web: gunicorn api.wsgi:application --bind 0.0.0.0:$PORT
+  celery: celery -A api worker -l INFO
