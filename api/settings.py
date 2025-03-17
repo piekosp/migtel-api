@@ -65,6 +65,7 @@ INSTALLED_APPS = [
     "django_filters",
     "users",
     "companies",
+    "transcriptions",
 ]
 
 MIDDLEWARE = [
@@ -192,9 +193,7 @@ else:
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 REST_FRAMEWORK = {
-    "DEFAULT_AUTHENTICATION_CLASSES": (
-        "rest_framework_simplejwt.authentication.JWTAuthentication",
-    ),
+    "DEFAULT_AUTHENTICATION_CLASSES": ("rest_framework_simplejwt.authentication.JWTAuthentication",),
     "DEFAULT_PAGINATION_CLASS": "api.pagination.DefaultPagination",
     "PAGE_SIZE": 25,
     "DEFAULT_FILTER_BACKENDS": ("django_filters.rest_framework.DjangoFilterBackend",),
@@ -224,3 +223,5 @@ LOGGING = {
         "level": "WARNING",
     },
 }
+
+OPEN_AI_API_KEY = env("OPEN_AI_API_KEY")

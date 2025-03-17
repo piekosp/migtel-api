@@ -6,6 +6,7 @@ from django.urls import include, path
 api_urls = [
     path("users/", include("users.urls", namespace="users")),
     path("companies/", include("companies.urls", namespace="companies")),
+    path("transcriptions/", include("transcriptions.urls", namespace="transcriptions")),
 ]
 
 urlpatterns = [
