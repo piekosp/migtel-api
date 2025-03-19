@@ -17,7 +17,7 @@ class RecordingsUploadViewSet(viewsets.ViewSet, DefaultPagination):
     pagination_class = DefaultPagination
 
     def get_queryset(self):
-        return RecordingTranscriptions.objects.all()
+        return RecordingTranscriptions.objects.all().order_by("-created_at")
 
     def list(self, request, *args, **kwargs):
         queryset = self.get_queryset()
