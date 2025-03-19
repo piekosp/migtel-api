@@ -1,10 +1,13 @@
 import json
+from io import BytesIO
 
 from django.conf import settings
+from django.core.files.storage import default_storage
 from openai import OpenAI
 
 # Konfiguracja OpenAI API
 client = OpenAI(api_key=settings.OPEN_AI_API_KEY)
+
 
 system_propmt = """
 Jesteś pomocnym asystentem, który pomaga w ustrukturyzowaniu transkrypcji rozmów telefonicznych na temat floty aut w firmach. 
@@ -88,23 +91,28 @@ Adres e-mail: stan0669@gmail.com
 
 
 def get_transcription(recording):
-    with open(recording.recording.path, "rb") as audio_file:
-        transcription = client.audio.transcriptions.create(
-            model="whisper-1",
-            file=audio_file,
-            prompt="Generalnie to... no dobra, dobra. A czy planuje Pan zakup auta w ciągu 3, 6, może 12 miesięcy? Tak, tak! Nie bierze Pan w leasing aut, nie?",
-        )
+    with default_storage.open(recording.recording.name, "rb") as s3_file:
+        # Read the file content into BytesIO
+        buffer = BytesIO(s3_file.read())
+        buffer.name = "audio.mp3"  # OpenAI needs a filename
 
-        chat_completion = client.chat.completions.create(
-            messages=[
-                {"role": "system", "content": system_propmt},
-                {"role": "user", "content": transcription.text},
-            ],
-            model="gpt-4o",
-        )
+        try:
+            transcription = client.audio.transcriptions.create(
+                model="whisper-1",
+                file=buffer,
+                prompt="Generalnie to... no dobra, dobra. A czy planuje Pan zakup auta w ciągu 3, 6, może 12 miesięcy? Tak, tak! Nie bierze Pan w leasing aut, nie?",
+            )
 
-        response = chat_completion.choices[0].message.content.strip()
+            chat_completion = client.chat.completions.create(
+                messages=[
+                    {"role": "system", "content": system_propmt},
+                    {"role": "user", "content": transcription.text},
+                ],
+                model="gpt-4o",
+            )
 
-        transcription = json.loads(response)
+            response = chat_completion.choices[0].message.content.strip()
+            return json.loads(response)
 
-    return transcription
+        except Exception as e:
+            raise Exception(f"Transcription failed: {str(e)}")
